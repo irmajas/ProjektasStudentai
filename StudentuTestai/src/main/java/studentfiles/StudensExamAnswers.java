@@ -3,6 +3,8 @@ package studentfiles;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -15,6 +17,7 @@ import java.util.Arrays;
 
 @SuppressWarnings("ALL")
 public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles {
+    private static final org.apache.logging.log4j.core.Logger LOG = (Logger) LogManager.getLogger(Util.class);
     private Student student = new Student();
 
     public Student getStudent() {
@@ -62,13 +65,18 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             }
             this.setAts(atsakym);
         }
-        catch (JsonParseException e) {e.printStackTrace();}
-        catch (JsonMappingException e) {e.printStackTrace();}
-        catch (IOException e){e.printStackTrace();}
+        // catch (JsonMappingException e) {e.printStackTrace();}
+        catch (JsonParseException e) {
+            LOG.error(" Klaida faile {}.Nnepavyko ikelti agzamino atsakymu",kelias.getFileName());
+            /* e.printStackTrace();*/}
         catch (ParseException e) {
-            e.printStackTrace();
-        }
+            LOG.error(" Klaida faile {}. Nepavyko ikelti agzamino atsakymu",kelias.getFileName());
+            /* e.printStackTrace();*/     }
+        catch (IOException e){
+            LOG.error(" Klaida  nuskaitant failą {}. Nepavyko ikelti agzamino atsakymu",kelias.getFileName());
+            /* e.printStackTrace();*/}
+    }
 
 
     }
-}
+
