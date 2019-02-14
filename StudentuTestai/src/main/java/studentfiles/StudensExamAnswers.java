@@ -17,7 +17,7 @@ import java.util.Arrays;
 
 @SuppressWarnings("ALL")
 public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles {
-    private static final org.apache.logging.log4j.core.Logger LOG = (Logger) LogManager.getLogger(Util.class);
+    private static final org.apache.logging.log4j.core.Logger LOG = (Logger) LogManager.getLogger(StudensExamAnswers.class);
     private Student student = new Student();
 
     public Student getStudent() {
@@ -51,18 +51,27 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             String id= (String)ob1.get("id");
             String vardas= (String)ob1.get("vardas");
             String pavarde= (String)ob1.get("pavarde");
-            this.student = new Student(id, vardas, pavarde);
+
             JSONObject ob2 =(JSONObject)jsonOb.get("egzaminas");
-            this.setExamID((String) ob2.get("id"));
-            this.setPavadinimas((String) ob2.get("pavadinimas"));
-            this.setTipas((String) ob2.get("tipas"));
+
             JSONArray obats =(JSONArray)jsonOb.get("atsakymai");
             String[] atsakym = new String[obats.size()];
             for (int i =0; i<obats.size();i++) {
                 JSONObject ats = (JSONObject) obats.get(i);
                 int kl= (int) Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
+                if (kl!=i+1){
+
+                    LOG.warn("Klaida faile {}", kelias.getFileName());
+
+                    return;
+                }
                 atsakym[i]=(String) ats.get("atsakymas");
+
             }
+            this.student = new Student(id, vardas, pavarde);
+            this.setExamID((String) ob2.get("id"));
+            this.setPavadinimas((String) ob2.get("pavadinimas"));
+            this.setTipas((String) ob2.get("tipas"));
             this.setAts(atsakym);
         }
         // catch (JsonMappingException e) {e.printStackTrace();}

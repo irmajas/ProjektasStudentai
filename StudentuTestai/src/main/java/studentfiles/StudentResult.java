@@ -1,29 +1,29 @@
 package studentfiles;
 
 public class StudentResult  extends Student {
-    int rez;
+    int ivertinimas;
 
     public int getRez() {
-        return rez;
+        return ivertinimas;
     }
 
     public void setRez(int rez) {
-        this.rez = rez;
+        this.ivertinimas = rez;
     }
 
     public StudentResult(String id, String vardas, String pavarde, int rez) {
         super(id, vardas, pavarde);
-        this.rez = rez;
+        this.ivertinimas = rez;
     }
 
     public StudentResult(int rez) {
-        this.rez = rez;
+        this.ivertinimas = rez;
     }
 
     @Override
     public String toString() {
         return "StudentResult{" +
-                "rez=" + rez +
+                "ivertinimas=" + ivertinimas +
                 "} " + super.toString();
     }
 }

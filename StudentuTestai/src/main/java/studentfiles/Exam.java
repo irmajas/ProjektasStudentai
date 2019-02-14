@@ -5,6 +5,10 @@ public class Exam {
     private  String pavadinimas;
     private String tipas;
 
+    public Exam() {
+
+    }
+
     public String getExamID() {
         return examID;
     }
@@ -28,4 +32,21 @@ public class Exam {
     public void setTipas(String tipas) {
         this.tipas = tipas;
     }
+
+    public Exam(String examID, String pavadinimas, String tipas) {
+        this.examID = examID;
+        this.pavadinimas = pavadinimas;
+        this.tipas = tipas;
+    }
+
+    @Override
+    public String toString() {
+        return "Exam{" +
+                "examID='" + examID + '\'' +
+                ", pavadinimas='" + pavadinimas + '\'' +
+                ", tipas='" + tipas + '\'' +
+                '}';
+    }
+
+
 }

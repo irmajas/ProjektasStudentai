@@ -40,7 +40,7 @@ public class Studentai {
 
         }
 // tikrinam egzamino testo rezultatus
-        HashMap<String, List<StudentResult>> rezultatai = Util.tikrintiTestuRezultatus(atsakymai,keliasrez);
+         List<Rezults> rezultatai = Util.tikrintiTestuRezultatus(atsakymai,keliasrez);
         System.out.println(rezultatai);
     }
 }

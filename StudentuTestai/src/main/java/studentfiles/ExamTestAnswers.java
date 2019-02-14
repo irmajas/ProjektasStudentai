@@ -20,11 +20,20 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
     private static final Logger LOG = (Logger) LogManager.getLogger(ExamTestAnswers.class);
     protected String[] ats ;
 
+    public ExamTestAnswers() {
+        super();
+    }
+
     public String[] getAts() {
         return ats;
     }
 
     public void setAts(String[] ats) {
+        this.ats = ats;
+    }
+
+    public ExamTestAnswers(String examID, String pavadinimas, String tipas, String[] ats) {
+        super(examID, pavadinimas, tipas);
         this.ats = ats;
     }
 

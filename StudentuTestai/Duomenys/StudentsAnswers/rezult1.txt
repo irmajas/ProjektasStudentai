@@ -1,8 +1,8 @@
 {
    "studentas":{
       "id":"1256",
-      "vardas":"Vardenis",
-      "pavarde":"Pavardenis"
+      "vardas":"Petras",
+      "pavarde":"Petraitis"
    },
    "egzaminas":{
       "id":"124",
