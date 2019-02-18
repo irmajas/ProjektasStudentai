@@ -1,9 +1,21 @@
 package studentfiles;
 
+import java.util.Objects;
+
 public class Student {
-    private String  id;
+    private String id;
     private String vardas;
     private String pavarde;
+
+    public Student(String id, String vardas, String pavarde) {
+        this.id = id;
+        this.vardas = vardas;
+        this.pavarde = pavarde;
+    }
+
+    public Student() {
+
+    }
 
     public String getId() {
         return id;
@@ -29,16 +41,6 @@ public class Student {
         this.pavarde = pavarde;
     }
 
-    public Student(String id, String vardas, String pavarde) {
-        this.id = id;
-        this.vardas = vardas;
-        this.pavarde = pavarde;
-    }
-
-    public Student() {
-
-    }
-
     @Override
     public String toString() {
         return "Student{" +
@@ -46,5 +48,18 @@ public class Student {
                 ", vardas='" + vardas + '\'' +
                 ", pavarde='" + pavarde + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return getId().equals(student.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
     }
 }

@@ -2,11 +2,17 @@ package studentfiles;
 
 public class Exam {
     private String examID;
-    private  String pavadinimas;
+    private String pavadinimas;
     private String tipas;
 
     public Exam() {
 
+    }
+
+    public Exam(String examID, String pavadinimas, String tipas) {
+        this.examID = examID;
+        this.pavadinimas = pavadinimas;
+        this.tipas = tipas;
     }
 
     public String getExamID() {
@@ -30,12 +36,6 @@ public class Exam {
     }
 
     public void setTipas(String tipas) {
-        this.tipas = tipas;
-    }
-
-    public Exam(String examID, String pavadinimas, String tipas) {
-        this.examID = examID;
-        this.pavadinimas = pavadinimas;
         this.tipas = tipas;
     }
 

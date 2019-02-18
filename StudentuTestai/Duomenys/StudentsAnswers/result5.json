@@ -1,4 +1,11 @@
 {
+   "testo_pradzia": "2019-02-07 03:30",
+   "testo_pabaiga": "2019-02-07 04:15",
+   "studentas":{
+      "id":"1526",
+      "vardas":"Jurgis",
+      "pavarde":"Jurgutis"
+   },
    "egzaminas":{
       "id":"124",
       "pavadinimas":"OOP pagrindai",
@@ -7,7 +14,7 @@
    "atsakymai":[
       {
          "klausimas":1,
-         "atsakymas":"a"
+         "atsakymas":"c"
       },
       {
          "klausimas":2,
