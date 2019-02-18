@@ -22,7 +22,7 @@ import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.Date;
 
-@SuppressWarnings("ALL")
+//@SuppressWarnings("ALL")
 public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles {
     private static final org.apache.logging.log4j.core.Logger LOG = (Logger) LogManager.getLogger(StudensExamAnswers.class);
 
@@ -85,13 +85,29 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             LocalDate examDate;
             try {
                 Time timeEnd = Time.valueOf(LocalTime.parse(dataEnd.substring(11)));
+                System.out.println("timeEnd "+timeEnd);
+                System.out.println(dataEnd.toString());
                 Time timeStart = Time.valueOf(LocalTime.parse(dataStart.substring(11)));
-                long duration = Duration.between( timeStart.toLocalTime(),timeEnd.toLocalTime()).toMinutes();
+                System.out.println("timeStart "+timeStart);
+                Time zeroTime= Time.valueOf("00:00:00");
+
+                Time endTime= Time.valueOf("23:59:59");
+
+                long duration;
+                System.out.println(timeStart.before(timeEnd));
+               if (timeStart.before(timeEnd)){
+                duration = Duration.between( timeStart.toLocalTime(),timeEnd.toLocalTime()).toMinutes();
+
+               }
+              else { duration= Duration.between(timeStart.toLocalTime(),endTime.toLocalTime()).toMinutes()+1+
+                       Duration.between(zeroTime.toLocalTime(),timeEnd.toLocalTime()).toMinutes();}
+                System.out.println(" duration "+ duration);
                 examDate = LocalDate.parse(dataStart.substring(0,10));
+                System.out.println("exam date "+egzam_data);
                 trukme=LocalTime.of((int)duration/60,(int)duration%60);
 
             } catch (Exception e){
-                LOG.warn("klaida gaunant egzamino laika");
+                LOG.warn("klaida gaunant egzamino laika :{}",kelias.getFileName());
                 trukme=LocalTime.of(0,0);
                 examDate = LocalDate.parse("1900-01-01");
 
