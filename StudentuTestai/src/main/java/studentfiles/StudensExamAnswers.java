@@ -2,7 +2,6 @@ package studentfiles;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.json.simple.JSONArray;
@@ -14,13 +13,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.sql.Time;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Arrays;
-import java.util.Date;
 
 //@SuppressWarnings("ALL")
 public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles {
@@ -58,7 +54,7 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
     public String toString() {
         return "StudensExamAnswers{" +
                 "student=" + student +
-                ", ats=" + Arrays.toString(ats) +
+                ", ats=" + Arrays.toString(getAts()) +
                 ", examID='" + getExamID() + '\'' +
                 ", pavadinimas='" + getPavadinimas() + '\'' +
                 ", tipas='" + getTipas() + '\'' +
@@ -66,75 +62,60 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
     }
 
     @Override
+//getting test aswers one Student
     public void getFromFile(Path kelias) {
         JSONParser parser = new JSONParser();
-
         ObjectMapper om = new ObjectMapper();
-
 
         try {
             Object obj = parser.parse(new FileReader(String.valueOf(kelias)));
             JSONObject jsonOb = (JSONObject) obj;
-
-   //bandom pridet data
-
-
             String dataStart = (String) jsonOb.get("testo_pradzia");
             String dataEnd = (String) jsonOb.get("testo_pabaiga");
             LocalTime trukme;
             LocalDate examDate;
+// skaiciuojam, kiek laiko studentas laike agzamina
             try {
                 Time timeEnd = Time.valueOf(LocalTime.parse(dataEnd.substring(11)));
-                System.out.println("timeEnd "+timeEnd);
-                System.out.println(dataEnd.toString());
                 Time timeStart = Time.valueOf(LocalTime.parse(dataStart.substring(11)));
-                System.out.println("timeStart "+timeStart);
-                Time zeroTime= Time.valueOf("00:00:00");
-
-                Time endTime= Time.valueOf("23:59:59");
-
+                Time zeroTime = Time.valueOf("00:00:00");
+                Time endTime = Time.valueOf("23:59:59");
                 long duration;
-                System.out.println(timeStart.before(timeEnd));
-               if (timeStart.before(timeEnd)){
-                duration = Duration.between( timeStart.toLocalTime(),timeEnd.toLocalTime()).toMinutes();
+                if (timeStart.before(timeEnd)) {
+                    duration = Duration.between(timeStart.toLocalTime(), timeEnd.toLocalTime()).toMinutes();
+                } else {
+                    duration = Duration.between(timeStart.toLocalTime(), endTime.toLocalTime()).toMinutes() + 1 +
+                            Duration.between(zeroTime.toLocalTime(), timeEnd.toLocalTime()).toMinutes();
+                }
+                examDate = LocalDate.parse(dataStart.substring(0, 10));
+                trukme = LocalTime.of((int) duration / 60, (int) duration % 60);
 
-               }
-              else { duration= Duration.between(timeStart.toLocalTime(),endTime.toLocalTime()).toMinutes()+1+
-                       Duration.between(zeroTime.toLocalTime(),timeEnd.toLocalTime()).toMinutes();}
-                System.out.println(" duration "+ duration);
-                examDate = LocalDate.parse(dataStart.substring(0,10));
-                System.out.println("exam date "+egzam_data);
-                trukme=LocalTime.of((int)duration/60,(int)duration%60);
-
-            } catch (Exception e){
-                LOG.warn("klaida gaunant egzamino laika :{}",kelias.getFileName());
-                trukme=LocalTime.of(0,0);
+            } catch (Exception e) {
+                LOG.warn("Klaida 01 gaunant egzamino laika :{}", kelias.getFileName());
+                trukme = LocalTime.of(0, 0);
                 examDate = LocalDate.parse("1900-01-01");
-
             }
-
+//nuskaitom studento duomenis
 
             JSONObject ob1 = (JSONObject) jsonOb.get("studentas");
             String id = (String) ob1.get("id");
             String vardas = (String) ob1.get("vardas");
             String pavarde = (String) ob1.get("pavarde");
-
             JSONObject ob2 = (JSONObject) jsonOb.get("egzaminas");
 
+//Nuskaitom studento atsakymus
             JSONArray obats = (JSONArray) jsonOb.get("atsakymai");
             String[] atsakym = new String[obats.size()];
             for (int i = 0; i < obats.size(); i++) {
                 JSONObject ats = (JSONObject) obats.get(i);
                 int kl = (int) Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
                 if (kl != i + 1) {
-
-                    LOG.warn("Klaida faile {}", kelias.getFileName());
-
+                    LOG.warn("Klaida 02 faile {}. Neteisingas atsakymo numeris", kelias.getFileName());
                     return;
                 }
                 atsakym[i] = (String) ats.get("atsakymas");
-
             }
+
             this.student = new Student(id, vardas, pavarde);
             this.setExamID((String) ob2.get("id"));
             this.setPavadinimas((String) ob2.get("pavadinimas"));
@@ -142,20 +123,13 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             this.setAts(atsakym);
             this.setEgzam_data(examDate.toString());
             this.setEgzam_trukme(trukme.toString());
-        }
-        // catch (JsonMappingException e) {e.printStackTrace();}
-        catch (JsonParseException e) {
-            LOG.error(" Klaida faile {}.Nnepavyko ikelti agzamino atsakymu", kelias.getFileName());
-            /* e.printStackTrace();*/
+        } catch (JsonParseException e) {
+            LOG.error(" Klaida 03 faile {}.Nnepavyko ikelti agzamino atsakymu", kelias.getFileName());
         } catch (ParseException e) {
-            LOG.error(" Klaida faile {}. Nepavyko ikelti agzamino atsakymu", kelias.getFileName());
-            /* e.printStackTrace();*/
+            LOG.error(" Klaida 04 faile {}. Nepavyko ikelti agzamino atsakymu", kelias.getFileName());
         } catch (IOException e) {
-            LOG.error(" Klaida  nuskaitant failą {}. Nepavyko nuskaityti agzamino atsakymu failo", kelias.getFileName());
-            /* e.printStackTrace();*/
+            LOG.error(" Klaida 05 nuskaitant failą {}. Nepavyko nuskaityti agzamino atsakymu failo", kelias.getFileName());
         }
     }
-
-
 }
 

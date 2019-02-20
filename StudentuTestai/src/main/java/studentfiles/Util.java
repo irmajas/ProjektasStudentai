@@ -1,10 +1,12 @@
 package studentfiles;
 
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -24,14 +26,12 @@ public class Util {
         // paruosiam mapa kiekvieno egzamino rezultatams
         List<Rezults> rezultatai = new ArrayList<>();
 
-        for (Map.Entry<String, ExamTestAnswers> ent : atsakymai.entrySet()
-        ) {
-
+        for (Map.Entry<String, ExamTestAnswers> ent : atsakymai.entrySet()) {
             rezultatai.add(new Rezults(ent.getValue().getExamID(), ent.getValue().getPavadinimas(), ent.getValue().getTipas()));
-
         }
+//gaunam sarasa failu su studentu testo rezultatais
         List<String> collect = UtilFiles.getFileList(keliasrez);
-
+//skaiciuojam kiekvieno testo rezultatus
         for (String s : collect
         ) {
             Path iskur = keliasrez.resolve(s);
@@ -46,30 +46,28 @@ public class Util {
 
                 if (atsakymai.containsKey(studAts.getExamID())) {
                     int rez = getRezult(studAts, atsakymai.get(studAts.getExamID()));
+                    //jei pavyko paskaiciuoti rezultata
                     if (rez != -1) {
                         StudentResult studRez = new StudentResult(studAts.getStudent().getId(), studAts.getStudent().getVardas()
                                 , studAts.getStudent().getPavarde(), rez);
-                         studRez.setEgzam_data(studAts.getEgzam_data());
-                         studRez.setEgzam_trukme(studAts.getEgzam_trukme());
+                        studRez.setEgzam_data(studAts.getEgzam_data());
+                        studRez.setEgzam_trukme(studAts.getEgzam_trukme());
 //
                         for (Rezults rezz : rezultatai) {
                             if (rezz.getExamID().equals(studAts.getExamID()))
                                 rezz.addEgzaminoRezultatai(studRez);
 
                         }
-
-
                     }
-                } else {
-                    LOG.warn("Nera teisingu atsakymo failo egzaminui {} {} arba klaidingas egzamino kodas",
+                } else { //jei nepavyko paskaiciuoti rezultato
+                    LOG.warn("Klaida 01 Nera teisingu atsakymo failo egzaminui {} {} arba klaidingas egzamino kodas",
                             studAts.getExamID(), studAts.getPavadinimas());
                 }
-
             }
         }
         return rezultatai;
     }
-
+//Luginam naujus egzamino rezultatus su esamais
     static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
@@ -77,25 +75,30 @@ public class Util {
             if (Files.isDirectory(kelias)) {
                 atsFailai = UtilFiles.getFileList(kelias);
             } else {
-                LOG.error(" klaida : neteisingai nurodyta direktorija egzamino rezultatu failams", kelias.getFileName());
+                LOG.error("Klaida 02: neteisingai nurodyta direktorija egzamino rezultatu failams", kelias.getFileName());
                 System.exit(-1);
             }
 
 
         }
+        System.out.println(atsFailai);
         for (Rezults resul : rezultatai
         ) {
-            String filename = "Exam" + resul.getExamID() + resul.getPavadinimas() + ".json";
+            String filename = "Exam" + resul.getExamID()+ ".json";
+
             Path kurs = kelias.resolve(filename);
 
-            if (Files.exists(kurs)) {
+            if (atsFailai.contains(kurs.getFileName().toString())) {
 
                 ObjectMapper om = new ObjectMapper();
                 try {
-                    Rezults rezultsold = om.readValue(kurs.toFile(), Rezults.class);
+                    System.out.println(kurs.toFile());
+                   Rezults rezultsold =om.readValue( kurs.toFile(),Rezults.class);
+
                     resul = Util.addingNewResults(rezultsold, resul);
                 } catch (IOException e) {
-                    LOG.warn("nepavyko nuskaityti failo {}", kurs);
+                    LOG.warn(" Klaida 03: nepavyko nuskaityti failo {}", kurs);
+                    System.out.println(e);
                 }
 
             }

@@ -20,6 +20,6 @@ public class StudensExamAnswerstest {
         assertEquals("1256", studAts.getStudent().getId());
         assertEquals("Petras", studAts.getStudent().getVardas());
         assertEquals("Petraitis", studAts.getStudent().getPavarde());
-        assertArrayEquals(a, studAts.ats);
+        assertArrayEquals(a, studAts.getAts());
     }
 }

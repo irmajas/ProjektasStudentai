@@ -280,3 +280,780 @@
 09:32:25.781 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
 09:40:35.955 [main] ERROR studentfiles.ExamTestAnswers -  Klaida  nuskaitant failą egzas1.json. Nepavyko ikelti agzamino atsakymu
 09:42:35.073 [main] ERROR studentfiles.ExamTestAnswers -  Klaida  nuskaitant failą egzas1.json. Nepavyko ikelti agzamino atsakymu
+11:14:18.491 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo nnemeris
+11:15:38.509 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:15:38.526 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:15:38.529 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:15:38.530 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:17:01.065 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:17:01.082 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:17:01.085 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:17:01.086 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:17:44.090 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:17:44.109 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:17:44.111 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:17:44.111 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:18:30.000 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:18:30.017 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:18:30.029 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:18:30.030 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:18:36.746 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas2.json. Pateiktas klaidingas atsakymo nnemeris
+11:19:38.018 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo nnemeris
+11:28:11.152 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:28:11.170 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:28:11.172 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:28:11.172 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:29:36.268 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:29:36.284 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:29:36.286 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:29:36.286 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:31:13.797 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+11:31:13.820 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:31:13.822 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:31:13.823 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:31:13.825 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:31:13.826 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+11:31:13.927 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+11:31:13.930 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+11:36:27.193 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+11:36:27.222 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:36:27.224 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:36:27.233 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:36:27.239 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:36:27.240 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+11:36:27.331 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+11:36:27.335 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+11:38:46.898 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult1.txt
+11:38:46.915 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 3
+11:38:46.921 [main] WARN  studentfiles.StudensExamAnswers - Klaida 01 gaunant egzamino laika :rezult2,txt
+11:38:46.922 [main] INFO  studentfiles.Util -  Studentas Vardenis Pavardenis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:44:13.035 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+11:44:13.052 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:44:13.057 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:44:13.058 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:44:13.060 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:44:13.060 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+11:44:13.162 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+11:44:13.165 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+11:50:25.007 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+11:50:25.028 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:50:25.034 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:50:25.036 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:50:25.038 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:50:25.040 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+11:50:25.147 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+11:50:25.152 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+11:58:18.896 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+11:58:18.926 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:58:18.929 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 1
+11:58:18.931 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:58:18.933 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 2
+11:58:18.937 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+11:58:19.041 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+11:58:19.044 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:00:41.701 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+12:00:41.858 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 1
+12:01:18.092 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+12:01:18.113 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:01:18.118 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:01:18.120 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:01:18.121 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:01:18.123 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:01:18.257 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:02:15.298 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 04 faile egzas1.json. Pateiktas klaidingas atsakymo numeris
+12:02:15.330 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:02:15.331 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:02:15.336 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:02:15.338 [main] WARN  studentfiles.Util - Nera teisingu atsakymo failo egzaminui 124 OOP pagrindai arba klaidingas egzamino kodas
+12:02:15.339 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:02:15.432 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:02:44.245 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:02:44.249 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:02:44.251 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:02:44.253 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:02:44.254 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:02:44.356 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:02:44.360 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:04:44.437 [main] INFO  studentfiles.Util - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+12:04:44.441 [main] INFO  studentfiles.Util - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+12:04:44.457 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:04:44.460 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:04:44.466 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:04:44.469 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:04:44.471 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:04:44.592 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:04:44.595 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:10:16.561 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+12:10:16.566 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+12:10:16.585 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:10:16.587 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:10:16.588 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:10:16.590 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:10:16.592 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:10:16.701 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:10:16.705 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:13:52.563 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+12:13:52.567 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+12:13:52.585 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:13:52.588 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:13:52.589 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:13:52.590 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:13:52.591 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:13:52.689 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:13:52.693 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:14:26.469 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+12:14:26.472 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+12:14:26.491 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:14:26.493 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:14:26.494 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:14:26.496 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+12:14:26.497 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:14:26.620 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:14:26.625 [main] WARN  studentfiles.Util - nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+12:47:47.645 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+12:47:47.649 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+12:47:47.675 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:47:47.677 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+12:47:47.678 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+12:47:47.679 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+12:47:47.680 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+12:47:47.784 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+12:47:47.789 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+13:03:12.640 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:03:12.643 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:03:12.659 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:03:12.662 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:03:12.663 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:03:12.664 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:03:12.666 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:03:39.915 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:03:39.920 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:03:39.938 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:03:39.940 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:03:39.942 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:03:39.943 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:03:39.944 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:03:40.046 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+13:03:40.049 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+13:06:42.427 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:06:42.430 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:06:42.448 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:06:42.450 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:06:42.452 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:06:42.454 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:06:42.456 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:08:57.533 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:08:57.537 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:08:57.557 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:08:57.560 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:08:57.567 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:08:57.568 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:08:57.569 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:08:57.571 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:13:13.911 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:13:13.915 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:13:13.931 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:13:13.933 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:13:13.939 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:13:13.941 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:13:13.943 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:13:13.945 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:15:49.114 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:15:49.120 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:15:49.139 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:15:49.150 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:15:49.151 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:15:49.155 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:15:49.156 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:15:49.157 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:19:44.877 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:19:44.882 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:19:44.898 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:19:44.900 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:19:44.901 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:19:44.903 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:19:44.904 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:19:44.905 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:19:44.971 [main] INFO  studentfiles.UtilFiles - Irasyi egzamino 134 DB pagrindai rezultati
+13:19:44.972 [main] INFO  studentfiles.UtilFiles - Irasyi egzamino 124 OOP pagrindai rezultati
+13:20:25.539 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:20:25.547 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:20:25.565 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:20:25.567 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:20:25.568 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:20:25.569 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:20:25.570 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:20:25.572 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:20:25.634 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:20:25.635 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:21:08.071 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:21:08.076 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:21:08.097 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:21:08.100 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:21:08.101 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:22:23.307 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:22:23.311 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:22:23.331 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:22:23.333 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:22:23.335 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:22:23.347 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:22:23.348 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:22:23.349 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:22:23.419 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:22:23.421 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:22:41.829 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:22:41.832 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:22:41.852 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:22:41.853 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:22:41.855 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:22:41.858 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:22:41.859 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:22:41.861 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:22:41.920 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:22:41.921 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:23:14.339 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:23:14.344 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:23:14.368 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:23:14.370 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:23:14.372 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:23:14.376 [main] WARN  studentfiles.StudensExamAnswers - Klaida 02 faile rezult1.json. Neteisingas atsakymo numeris
+13:23:14.377 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:23:14.379 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:23:14.445 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:23:14.447 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:23:48.254 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:23:48.257 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:23:48.274 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:23:48.277 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:23:48.290 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:25:26.940 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:25:26.943 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:25:26.958 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:25:26.960 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:25:26.961 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:25:26.963 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:25:26.964 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:25:26.965 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:25:27.029 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:25:27.030 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:25:48.184 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:25:48.194 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:25:48.214 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:25:48.217 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:25:48.218 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:25:48.219 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:25:48.221 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:25:48.222 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:25:48.285 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:25:48.286 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:26:16.347 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:26:16.350 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:26:16.370 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:26:16.372 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:26:16.374 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:26:16.375 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:26:16.377 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:26:16.378 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:26:16.436 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:26:16.437 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:26:35.824 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:26:35.829 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 null teisingi atsakymai
+13:26:35.849 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:26:35.852 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:26:35.853 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:26:35.855 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:26:35.857 [main] WARN  studentfiles.Util - Klaida 01 Nera teisingu atsakymo failo egzaminui 134 DB pagrindai arba klaidingas egzamino kodas
+13:26:35.858 [main] WARN  studentfiles.Util - Klaida 01 Nera teisingu atsakymo failo egzaminui 134 DB pagrindai arba klaidingas egzamino kodas
+13:26:35.930 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:26:59.063 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:26:59.070 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino null DB pagrindai teisingi atsakymai
+13:26:59.085 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:27:17.277 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:27:17.282 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:27:17.306 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:27:17.308 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:27:17.309 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:27:17.311 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:27:17.314 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:27:17.315 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:27:17.383 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:27:17.385 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:35:12.851 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:35:12.856 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:35:12.874 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:35:12.930 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:35:12.934 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:36:38.240 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:36:38.246 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:36:38.269 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:36:38.338 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:36:38.343 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:37:33.144 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:37:33.148 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:37:33.170 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:37:33.221 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:37:33.225 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:38:13.887 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:38:13.893 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:38:13.913 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:38:13.986 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:38:13.990 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:38:31.635 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:38:31.639 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:38:31.657 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:38:31.712 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:38:31.716 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:38:55.063 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:38:55.067 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:38:55.088 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:38:55.143 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:38:55.148 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:39:54.913 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:39:54.918 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:39:54.937 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:39:54.995 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:39:54.999 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:40:19.308 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:40:19.312 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:40:19.331 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:40:19.403 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:40:19.411 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:40:57.229 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:40:57.234 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:40:57.253 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:40:57.315 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:40:57.322 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:41:10.628 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:41:10.632 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:41:10.651 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:41:10.737 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134DB pagrindai.json
+13:41:10.740 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124OOP pagrindai.json
+13:41:10.760 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:41:10.763 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:44:50.332 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:44:50.336 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:44:50.354 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:44:50.356 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:44:50.358 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:44:50.360 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:44:50.361 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:44:50.362 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:44:50.420 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:44:50.421 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:44:57.564 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:44:57.569 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:44:57.591 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:44:57.594 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:44:57.596 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:44:57.598 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:44:57.599 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:44:57.600 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:44:57.658 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:44:57.661 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:45:26.193 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:45:26.197 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:45:26.215 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:45:26.217 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:45:26.218 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:45:26.219 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:45:26.220 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:45:26.222 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:45:26.223 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:45:26.284 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:45:26.285 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:47:05.238 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:47:05.242 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:47:05.261 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:47:05.263 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:47:05.265 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:47:05.268 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:47:05.269 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:47:05.271 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:47:05.272 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:47:05.359 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:47:05.360 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:47:49.616 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:47:49.620 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:47:49.642 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:47:49.644 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:47:49.646 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:47:49.648 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:47:49.650 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:47:49.651 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:47:49.652 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:47:49.710 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:47:49.711 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:49:03.892 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:49:03.897 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:49:03.920 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:49:03.922 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:49:03.923 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:49:03.925 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:49:03.926 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:49:03.928 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:49:03.929 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:49:04.001 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:49:04.002 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:49:12.709 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:49:12.713 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:49:12.732 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:49:12.738 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:49:12.740 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:49:12.742 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:49:12.743 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:49:12.744 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:49:12.745 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:49:12.817 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:49:12.821 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:49:12.845 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:49:12.846 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:52:16.744 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:52:16.748 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:52:16.765 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:52:16.778 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:52:16.779 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:52:16.789 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:52:16.790 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:52:16.791 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:52:16.792 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:52:16.857 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:52:16.862 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:52:16.887 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:52:16.890 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:56:00.535 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:56:00.540 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:56:00.566 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:00.568 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:00.571 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:00.573 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:56:00.575 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:00.577 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:56:00.579 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:56:26.569 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:56:26.572 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:56:26.593 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:26.594 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:26.596 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:26.597 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:56:26.598 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:26.600 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:56:26.601 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:56:51.385 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:56:51.391 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:56:51.413 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:51.414 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:56:51.415 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:51.417 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:56:51.420 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:56:51.422 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:56:51.423 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:56:51.440 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:56:51.440 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:56:51.496 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:56:51.498 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:57:12.032 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:57:12.036 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:57:12.053 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:57:12.055 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:57:12.071 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:57:12.073 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:57:12.074 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:57:12.075 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:57:12.076 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:57:12.080 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:57:12.080 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:57:12.120 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:57:12.121 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:57:43.476 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:57:43.479 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:57:43.506 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:57:43.508 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:57:43.509 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:57:43.511 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:57:43.513 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:57:43.514 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:57:43.515 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:57:43.587 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:57:43.590 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:57:43.617 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:57:43.621 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:58:14.811 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:58:14.816 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:58:14.835 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:58:14.836 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:58:14.839 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:58:14.841 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:58:14.842 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:58:14.843 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:58:14.851 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:59:23.877 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:59:23.881 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:59:23.903 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:59:23.905 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+13:59:23.907 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:59:23.908 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+13:59:23.909 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+13:59:23.911 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+13:59:23.912 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+13:59:23.991 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:59:23.999 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:59:24.021 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:59:24.022 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:01:29.410 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:01:29.414 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:01:29.438 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:01:29.440 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:01:29.452 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:01:29.453 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:01:29.460 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:01:29.461 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:01:29.463 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:01:29.526 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:01:29.529 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:01:29.563 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:01:29.564 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:01:48.392 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:01:48.397 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:01:48.417 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:01:48.419 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:01:48.422 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:01:48.424 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:01:48.425 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:01:48.426 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:01:48.427 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:01:48.515 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:01:48.521 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:01:48.559 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:01:48.560 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:05:52.982 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:05:52.987 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:05:53.004 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:05:53.006 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:05:53.007 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:05:53.008 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:05:53.009 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:05:53.010 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:05:53.011 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:05:53.102 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:05:53.123 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:05:53.145 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:05:53.147 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:08:16.733 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:08:16.739 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:08:16.755 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:16.757 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:16.760 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:16.762 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:08:16.763 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:16.764 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:08:16.765 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:08:16.843 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:08:16.846 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:08:16.869 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:08:16.870 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:08:23.615 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:08:23.619 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:08:23.634 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:23.636 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:23.637 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:23.640 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:08:23.642 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:23.644 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:08:23.645 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:08:23.721 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:08:23.725 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:08:23.746 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:08:23.747 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:08:34.524 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:08:34.527 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:08:34.547 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:34.557 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:34.559 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:34.560 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:08:34.564 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:34.565 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:08:34.566 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:08:34.635 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:08:34.642 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:08:34.660 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:08:34.661 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:08:48.479 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:08:48.483 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:08:48.502 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:48.505 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:08:48.508 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:48.512 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:08:48.513 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:08:48.514 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:08:48.524 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:08:48.603 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:08:48.607 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:08:48.636 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:08:48.637 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:12:23.694 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:12:23.698 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:12:23.718 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:12:23.720 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:12:23.722 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:12:23.723 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:12:23.724 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:12:23.726 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:12:23.727 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:12:23.810 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:12:23.816 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:12:23.840 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:12:23.841 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:24:35.065 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:24:35.070 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:24:35.099 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:24:35.101 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:24:35.102 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:24:35.106 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:24:35.107 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:24:35.108 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:24:35.109 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:24:35.278 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:24:35.285 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:24:35.359 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:24:35.361 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:31:37.649 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:31:37.652 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:31:37.681 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:31:37.683 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:31:37.685 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:31:37.689 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:31:37.690 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:31:37.691 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:31:37.693 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:31:37.791 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:31:37.795 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:31:37.819 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:31:37.820 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:34:06.636 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:34:06.640 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:34:06.657 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:34:06.659 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:34:06.660 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:34:06.661 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:34:06.662 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:34:06.664 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:34:06.665 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:34:06.745 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:34:06.748 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:34:06.791 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:34:06.793 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:45:19.890 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:45:19.895 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:45:19.916 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:45:19.917 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:45:19.919 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:45:19.920 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:45:19.921 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:45:19.923 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:45:19.924 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:45:20.008 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:45:20.022 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:45:20.049 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:45:20.050 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:46:31.287 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:46:31.291 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:46:31.317 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:46:31.319 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:46:31.320 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:46:31.321 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:46:31.322 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:46:31.323 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:46:31.324 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:46:31.397 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:46:31.400 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:46:31.434 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:46:31.435 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:47:06.216 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:47:06.220 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:47:06.243 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:47:06.246 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:47:06.248 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:47:06.250 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:47:06.251 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:47:06.253 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:47:06.254 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:47:06.352 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:47:06.356 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:47:06.400 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:47:06.402 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:47:48.470 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:47:48.474 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:47:48.493 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:47:48.494 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:47:48.496 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:47:48.497 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:47:48.499 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:47:48.500 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:47:48.501 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:47:48.579 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:47:48.584 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:47:48.607 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:47:48.608 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:48:40.057 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:48:40.062 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:48:40.083 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:48:40.085 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:48:40.086 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:48:40.088 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:48:40.089 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:48:40.090 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:48:40.091 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:48:40.179 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:48:40.182 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:48:40.215 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:48:40.216 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:51:35.529 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:51:35.534 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:51:35.551 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:51:35.557 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:51:35.566 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:51:35.570 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:51:35.572 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:51:35.574 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:51:35.575 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:51:35.649 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:51:35.653 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:51:35.677 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:51:35.679 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:52:41.885 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:52:41.889 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:52:41.915 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:52:41.918 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:52:41.919 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:52:41.921 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:52:41.923 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:52:41.926 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:52:41.927 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:52:42.012 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:52:42.015 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:52:42.039 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:52:42.041 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:53:16.056 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:53:16.059 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:53:16.075 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:53:16.078 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:53:16.079 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:53:16.081 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:53:16.083 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:53:16.084 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:53:16.086 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:53:16.147 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:53:16.148 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+14:53:28.187 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+14:53:28.191 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+14:53:28.215 [main] INFO  studentfiles.Util -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:53:28.218 [main] INFO  studentfiles.Util -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 2
+14:53:28.219 [main] INFO  studentfiles.Util -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:53:28.221 [main] INFO  studentfiles.Util -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 1
+14:53:28.222 [main] INFO  studentfiles.Util -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 3
+14:53:28.223 [main] INFO  studentfiles.Util -  Studentas Jonas Jonaitis laike agzamina 134 DB pagrindai. Rezultatas 4
+14:53:28.224 [main] INFO  studentfiles.Util -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 1
+14:53:28.302 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+14:53:28.305 [main] WARN  studentfiles.Util -  Klaida 03: nepavyko nuskaityti failo C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+14:53:28.327 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+14:53:28.328 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
