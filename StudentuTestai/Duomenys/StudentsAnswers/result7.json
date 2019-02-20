@@ -1,0 +1,36 @@
+{
+  "testo_pradzia": "2019-02-09 11:30",
+  "testo_pabaiga": "2019-02-09 12:15",
+  "studentas": {
+    "id": "3256",
+    "vardas": "Laurynas",
+    "pavarde": "Laurutis"
+  },
+  "egzaminas": {
+    "id": "134",
+    "pavadinimas": "DB pagrindai",
+    "tipas": "testas"
+  },
+  "atsakymai": [
+    {
+      "klausimas": 1,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 2,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 3,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 4,
+      "atsakymas": "b"
+    }
+    {
+      "klausimas": 5,
+      "atsakymas": "b"
+    }
+  ]
+}

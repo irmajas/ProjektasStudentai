@@ -1,12 +1,10 @@
 {
-
-   "testo_pradzia":"2019-02-07 23:30",
-   "testo_pabaiga":"2019-02-08 00:21",
-
+   "testo_pradzia": "2019-02-07 02:30",
+   "testo_pabaiga": "2019-02-07 03:05",
    "studentas":{
-      "id":"6523",
-      "vardas":"Rasa",
-      "pavarde":"Rastenyt"
+      "id":"2365",
+      "vardas":"Lina",
+      "pavarde":"Linaite"
    },
    "egzaminas":{
       "id":"124",
@@ -16,11 +14,11 @@
    "atsakymai":[
       {
          "klausimas":1,
-         "atsakymas":"b"
+         "atsakymas":"c"
       },
       {
          "klausimas":2,
-         "atsakymas":"b"
+         "atsakymas":"d"
       },
       {
          "klausimas":3,

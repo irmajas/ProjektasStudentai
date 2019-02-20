@@ -52,7 +52,6 @@ public class Util {
                                 , studAts.getStudent().getPavarde(), rez);
                         studRez.setEgzam_data(studAts.getEgzam_data());
                         studRez.setEgzam_trukme(studAts.getEgzam_trukme());
-//
                         for (Rezults rezz : rezultatai) {
                             if (rezz.getExamID().equals(studAts.getExamID()))
                                 rezz.addEgzaminoRezultatai(studRez);
@@ -67,7 +66,8 @@ public class Util {
         }
         return rezultatai;
     }
-//Luginam naujus egzamino rezultatus su esamais
+
+    //Luginam naujus egzamino rezultatus su esamais
     static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
@@ -81,10 +81,10 @@ public class Util {
 
 
         }
-        System.out.println(atsFailai);
+
         for (Rezults resul : rezultatai
         ) {
-            String filename = "Exam" + resul.getExamID()+ ".json";
+            String filename = "Exam" + resul.getExamID() + ".json";
 
             Path kurs = kelias.resolve(filename);
 
@@ -92,8 +92,8 @@ public class Util {
 
                 ObjectMapper om = new ObjectMapper();
                 try {
-                    System.out.println(kurs.toFile());
-                   Rezults rezultsold =om.readValue( kurs.toFile(),Rezults.class);
+
+                    Rezults rezultsold = om.readValue(kurs.toFile(), Rezults.class);
 
                     resul = Util.addingNewResults(rezultsold, resul);
                 } catch (IOException e) {
@@ -115,8 +115,7 @@ public class Util {
                 .filter(studentResult -> !studentNew.containsAll(studentOld))
                 .collect(Collectors.toList());
         //test print
-        System.out.println("ORIGINAL?");
-        System.out.println(original);
+
 
         reznew.setEgzaminoRezultatai(Stream.concat(studentNew.stream(), original.stream())
                 .collect(Collectors.toList()));

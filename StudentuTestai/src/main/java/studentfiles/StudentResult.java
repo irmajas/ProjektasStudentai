@@ -10,6 +10,13 @@ public class StudentResult extends Student {
         this.ivertinimas = rez;
     }
 
+    public StudentResult() {
+        super();
+    }
+    public StudentResult(String id, String vardas, String pavarde) {
+        super(id, vardas, pavarde);
+    }
+
     public StudentResult(int rez) {
         this.ivertinimas = rez;
     }

@@ -12,7 +12,7 @@ public class StudensExamAnswerstest {
     @Test
     void getFromFileTestWithDate() {
         StudensExamAnswers studAts = new StudensExamAnswers();
-        Path iskur = Paths.get("C:\\Users\\irmaj\\ProjektasStudentai\\StudentuTestai\\Duomenys\\StudentsAnswers\\rezult1.json");
+        Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\StudentsAnswers\\result1.json");
         studAts.getFromFile(iskur);
         String a[] = {"c", "a", "d", "c"};
         assertEquals("01:18", studAts.getEgzam_trukme());
