@@ -6,15 +6,6 @@ import java.util.List;
 public class Rezults extends Exam {
     private List<StudentResult> egzaminoRezultatai= new ArrayList<>();
 
-//    public Rezults(List<StudentResult> egzaminoRezultatai) {
-//        this.egzaminoRezultatai = egzaminoRezultatai;
-//    }
-
-//    public Rezults(String examID, String pavadinimas, String tipas, List<StudentResult> egzaminoRezultatai) {
-//        super(examID, pavadinimas, tipas);
-//        this.egzaminoRezultatai = egzaminoRezultatai;
- //   }
-
     public Rezults(String examID, String pavadinimas, String tipas) {
         super(examID, pavadinimas, tipas);
         this.egzaminoRezultatai = new ArrayList<>();

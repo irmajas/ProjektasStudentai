@@ -1,0 +1,49 @@
+{
+  "egzaminas": {
+    "id": "144",
+    "pavadinimas": "Java pagrindai",
+    "tipas": "testasSuVariantais"
+  },
+  "atsakymai": [
+    {
+      "klausimas": 1,
+      "atsakymas": "ab"
+    },
+    {
+      "klausimas": 2,
+      "atsakymas": "bcd"
+    },
+    {
+      "klausimas": 3,
+      "atsakymas": "ad"
+    },
+    {
+      "klausimas": 4,
+      "atsakymas": "bcd"
+    },
+    {
+      "klausimas": 5,
+      "atsakymas": "bce"
+    },
+    {
+      "klausimas": 6,
+      "atsakymas": "abc"
+    },
+    {
+      "klausimas": 7,
+      "atsakymas": "bcd"
+    },
+    {
+      "klausimas": 8,
+      "atsakymas": "abd"
+    },
+    {
+      "klausimas": 9,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 10,
+      "atsakymas": "ab"
+    }
+  ]
+}

@@ -1,12 +1,8 @@
 package studentfiles;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.core.Logger;
 
 import java.io.IOException;
-import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -18,8 +14,6 @@ import java.util.stream.Stream;
 
 
 public class Util {
-
-    private static final Logger LOG = (Logger) LogManager.getLogger(Util.class);
 
     // Tikrinti testu rezultatus
     static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
@@ -45,7 +39,10 @@ public class Util {
             } else {
 
                 if (atsakymai.containsKey(studAts.getExamID())) {
-                    int rez = getRezult(studAts, atsakymai.get(studAts.getExamID()));
+                int rez=0;
+                  if (studAts.getTipas().equals("testas")){  rez = CountingExamRezult.getRezult(studAts, atsakymai.get(studAts.getExamID()));}
+                    if (studAts.getTipas().equals("testasSuVariantais")){  rez = CountingExamRezult.getRezultWithfewAnswers(studAts, atsakymai.get(studAts.getExamID()));}
+
                     //jei pavyko paskaiciuoti rezultata
                     if (rez != -1) {
                         StudentResult studRez = new StudentResult(studAts.getStudent().getId(), studAts.getStudent().getVardas()
@@ -59,7 +56,7 @@ public class Util {
                         }
                     }
                 } else { //jei nepavyko paskaiciuoti rezultato
-                    LOG.warn("Klaida 01 Nera teisingu atsakymo failo egzaminui {} {} arba klaidingas egzamino kodas",
+                    CountingExamRezult.LOG.warn("Klaida 01 Nera teisingu atsakymo failo egzaminui {} {} arba klaidingas egzamino kodas",
                             studAts.getExamID(), studAts.getPavadinimas());
                 }
             }
@@ -67,7 +64,7 @@ public class Util {
         return rezultatai;
     }
 
-    //Luginam naujus egzamino rezultatus su esamais
+    //Lyginam naujus egzamino rezultatus su esamais
     static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
@@ -75,7 +72,7 @@ public class Util {
             if (Files.isDirectory(kelias)) {
                 atsFailai = UtilFiles.getFileList(kelias);
             } else {
-                LOG.error("Klaida 02: neteisingai nurodyta direktorija egzamino rezultatu failams", kelias.getFileName());
+                CountingExamRezult.LOG.error("Klaida 02: neteisingai nurodyta direktorija egzamino rezultatu failams", kelias.getFileName());
                 System.exit(-1);
             }
 
@@ -97,7 +94,7 @@ public class Util {
 
                     resul = Util.addingNewResults(rezultsold, resul);
                 } catch (IOException e) {
-                    LOG.warn(" Klaida 03: nepavyko nuskaityti failo {}", kurs);
+                    CountingExamRezult.LOG.warn(" Klaida 03: nepavyko nuskaityti failo {}", kurs);
                     System.out.println(e);
                 }
 
@@ -114,35 +111,10 @@ public class Util {
         List<StudentResult> original = studentOld.stream()
                 .filter(studentResult -> !studentNew.containsAll(studentOld))
                 .collect(Collectors.toList());
-        //test print
-
-
         reznew.setEgzaminoRezultatai(Stream.concat(studentNew.stream(), original.stream())
                 .collect(Collectors.toList()));
         return reznew;
     }
 
-    //Paskaiciuoti testo rezultata
-    static int getRezult(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
-        int result = 0;
-        int kiekKlausimu = studentans.getAts().length;
-        if (kiekKlausimu != trueAnswers.getAts().length) {
-            LOG.warn("Studentas {} {} laikė agzaminą {} {}. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi",
-                    studentans.getStudent().getVardas(), studentans.getStudent().getPavarde(),
-                    studentans.getExamID(), studentans.getPavadinimas());
-            return -1;
-        }
-        for (int i = 0; i < kiekKlausimu; i++) {
-
-            if (studentans.getAts()[i].equals(trueAnswers.getAts()[i])) {
-                result++;
-            }
-        }
-
-        LOG.info(" Studentas {} {} laike agzamina {} {}. Rezultatas {}",
-                studentans.getStudent().getVardas(), studentans.getStudent().getPavarde()
-                , studentans.getExamID(), studentans.getPavadinimas(), result);
-        return result;
-    }
 }
 
