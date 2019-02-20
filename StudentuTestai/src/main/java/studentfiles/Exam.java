@@ -1,6 +1,6 @@
 package studentfiles;
 
-public class Exam {
+public abstract class Exam {
     private String examID;
     private String pavadinimas;
     private String tipas;

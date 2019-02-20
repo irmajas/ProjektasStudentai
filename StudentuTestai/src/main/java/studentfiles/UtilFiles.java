@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class UtilFiles {
-    private static final Logger LOG = (Logger) LogManager.getLogger(Util.class);
+    private static final Logger LOG = (Logger) LogManager.getLogger(UtilFiles.class);
 
     //Nuskaityti visus atsakymu failus
     static HashMap<String, ExamTestAnswers> getAllAnswers(Path kelias) {
@@ -22,21 +22,19 @@ public class UtilFiles {
         List<String> collect = getFileList(kelias);
         for (String s : collect) {
             Path isKur = kelias.resolve(s);
-            System.out.println(isKur);
             ExamTestAnswers ats = new ExamTestAnswers();
             ats.getFromFile(isKur);
-
-            mas.put(ats.getExamID(), ats);
+            if (!(ats.getPavadinimas() == null))
+                mas.put(ats.getExamID(), ats);
+            LOG.info("Ikelti egzamino {} {} teisingi atsakymai", ats.getExamID(), ats.getPavadinimas());
         }
-
-
         return mas;
+
     }
 
     //gauti sarasa failu, esanciu direktorijoje
     static List<String> getFileList(Path kelias) {
         if (Files.isDirectory(kelias)) {
-
             try {
 
                 List<String> collect = Files.walk(Paths.get(String.valueOf(kelias)))
@@ -45,7 +43,7 @@ public class UtilFiles {
                         .collect(Collectors.toList());
                 return collect;
             } catch (IOException e) {
-              LOG.error(" klaida nuskaitant  failus aplanke {}", kelias.getFileName());
+                LOG.error(" Klaida 01 nuskaitant failus aplanke {}", kelias.getFileName());
                 System.exit(-1);
             }
         }
@@ -64,12 +62,12 @@ public class UtilFiles {
             }
         }
         for (Rezults rez : rezultatai) {
-            File fileatsalymas = new File(String.valueOf(Paths.get(String.valueOf(kelias)).resolve("Exam" + rez.getExamID() + rez.getPavadinimas() + ".json")));
+            File fileatsalymas = new File(String.valueOf(Paths.get(String.valueOf(kelias)).resolve("Exam" + rez.getExamID() +  ".json")));
             try {
-                System.out.println("bandom rasyt");
-                om.writeValue(fileatsalymas, rez);
+               om.writeValue(fileatsalymas, rez);
+               LOG.info("Įrašyti egzamino {} {} rezultatai",rez.getExamID(), rez.getPavadinimas());
             } catch (IOException e) {
-                LOG.warn("nepavyko irasyti egzaminorezultatu failo  {}", "Exam" + rez.getExamID() + rez.getPavadinimas());
+                LOG.warn("Klaida 03: nepavyko įrašyti egzamino rezultatų failo  {}", "Exam" + rez.getExamID() + rez.getPavadinimas());
 
             }
         }

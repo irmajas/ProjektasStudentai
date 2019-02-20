@@ -1,0 +1,36 @@
+{
+  "testo_pradzia": "2019-02-09 11:30",
+  "testo_pabaiga": "2019-02-09 12:15",
+  "studentas": {
+    "id": "4658",
+    "vardas": "Jeronimas",
+    "pavarde": "Juraitis"
+  },
+  "egzaminas": {
+    "id": "134",
+    "pavadinimas": "DB pagrindai",
+    "tipas": "testas"
+  },
+  "atsakymai": [
+    {
+      "klausimas": 1,
+      "atsakymas": "a"
+    },
+    {
+      "klausimas": 2,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 3,
+      "atsakymas": "b"
+    },
+    {
+      "klausimas": 4,
+      "atsakymas": "d"
+    }
+    {
+      "klausimas": 5,
+      "atsakymas": "a"
+    }
+  ]
+}

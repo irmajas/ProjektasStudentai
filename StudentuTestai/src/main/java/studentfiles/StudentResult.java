@@ -3,7 +3,7 @@ package studentfiles;
 public class StudentResult extends Student {
     private String egzam_data;
     private String egzam_trukme;
-    int ivertinimas;
+    private int ivertinimas;
 
     public StudentResult(String id, String vardas, String pavarde, int rez) {
         super(id, vardas, pavarde);

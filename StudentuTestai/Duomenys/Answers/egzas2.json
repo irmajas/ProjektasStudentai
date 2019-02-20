@@ -1,20 +1,13 @@
 {
-    "testo_pradzia": "2019-05-06 03:36",
-    "testo_pabaiga": "2019-05-06 04:54",
-  "studentas": {
-    "id": "1256",
-    "vardas": "Petras",
-    "pavarde": "Petraitis"
-  },
   "egzaminas": {
-    "id": "124",
-    "pavadinimas": "OOP pagrindai",
+    "id": "134",
+    "pavadinimas": "DB pagrindai",
     "tipas": "testas"
   },
   "atsakymai": [
     {
       "klausimas": 1,
-      "atsakymas": "c"
+      "atsakymas": "a"
     },
     {
       "klausimas": 2,
@@ -27,6 +20,10 @@
     {
       "klausimas": 4,
       "atsakymas": "c"
+    },
+    {
+      "klausimas": 5,
+      "atsakymas": "b"
     }
   ]
 }
