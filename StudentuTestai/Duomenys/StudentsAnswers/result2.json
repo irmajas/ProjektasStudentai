@@ -1,0 +1,34 @@
+{
+
+   "testo_pradzia":"2019-02-07 03:30",
+   "testo_pabaiga":"2019-02-07 04:21",
+
+   "studentas":{
+      "id":"6523",
+      "vardas":"Rasa",
+      "pavarde":"Rastenyt"
+   },
+   "egzaminas":{
+      "id":"124",
+      "pavadinimas":"OOP pagrindai",
+      "tipas":"testas"
+   },
+   "atsakymai":[
+      {
+         "klausimas":1,
+         "atsakymas":"b"
+      },
+      {
+         "klausimas":2,
+         "atsakymas":"b"
+      },
+      {
+         "klausimas":3,
+         "atsakymas":"d"
+      },
+      {
+         "klausimas":4,
+         "atsakymas":"c"
+      }
+   ]
+}
