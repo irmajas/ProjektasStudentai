@@ -71,5 +71,27 @@ public class CountingExamRezulttest {
         assertEquals(70, rez);
 
     }
+    @Test
+    public void getRezultWithfewAnswers_test2() {
+        Student stud = new Student("123", "Jonas", "JOnaitis");
+        ExamTestAnswers exam = new ExamTestAnswers();
+        exam.setExamID("124");
+        exam.setPavadinimas("OOP");
+        exam.setTipas("testas");
+        String[] teisats = {"ab", "bd", "ca", "ab", "d", "cd"};
+        String[] ats = {"ab", "bd", "cda", "abc", "dc"};
+        exam.setAts(teisats);
+        StudensExamAnswers studensExamAnswers = new StudensExamAnswers();
+        studensExamAnswers.setStudent(stud);
+        studensExamAnswers.setExamID("124");
+        studensExamAnswers.setPavadinimas("OOP");
+        studensExamAnswers.setTipas("testas");
+
+        studensExamAnswers.setAts(ats);
+        int rez;
+        rez = CountingExamRezult.getRezultWithfewAnswers(studensExamAnswers, exam);
+        assertEquals(-1, rez);
+
+    }
 
 }
