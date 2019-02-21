@@ -15,9 +15,9 @@ import java.util.stream.Stream;
 
 public class Util {
 
-    // Tikrinti testu rezultatus
+// Tikrinti testu rezultatus
     static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
-        // paruosiam mapa kiekvieno egzamino rezultatams
+// paruosiam mapa kiekvieno egzamino rezultatams
         List<Rezults> rezultatai = new ArrayList<>();
 
         for (Map.Entry<String, ExamTestAnswers> ent : atsakymai.entrySet()) {
@@ -64,7 +64,7 @@ public class Util {
         return rezultatai;
     }
 
-    //Lyginam naujus egzamino rezultatus su esamais
+//Lyginam naujus egzamino rezultatus su esamais
     static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
@@ -104,7 +104,7 @@ public class Util {
         return rezultatai;
     }
 
-    // lyginam du resultatu List'us
+// lyginam du resultatu List'us
     static Rezults addingNewResults(Rezults rezold, Rezults reznew) {
         List<StudentResult> studentOld = rezold.getEgzaminoRezultatai();
         List<StudentResult> studentNew = reznew.getEgzaminoRezultatai();

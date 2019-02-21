@@ -76,16 +76,16 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             LocalDate examDate;
 // skaiciuojam, kiek laiko studentas laike agzamina
             try {
-                Time timeEnd = Time.valueOf(LocalTime.parse(dataEnd.substring(11)));
-                Time timeStart = Time.valueOf(LocalTime.parse(dataStart.substring(11)));
-                Time zeroTime = Time.valueOf("00:00:00");
-                Time endTime = Time.valueOf("23:59:59");
+                LocalTime timeEnd = LocalTime.parse(dataEnd.substring(11));
+                LocalTime timeStart = LocalTime.parse(dataStart.substring(11));
+                LocalTime zeroTime = LocalTime.of(0,0);
+                LocalTime endTime = LocalTime.of (23,59,59);
                 long duration;
-                if (timeStart.before(timeEnd)) {
-                    duration = Duration.between(timeStart.toLocalTime(), timeEnd.toLocalTime()).toMinutes();
+                if (timeStart.isBefore(timeEnd)) {
+                    duration = Duration.between(timeStart, timeEnd).toMinutes();
                 } else {
-                    duration = Duration.between(timeStart.toLocalTime(), endTime.toLocalTime()).toMinutes() + 1 +
-                            Duration.between(zeroTime.toLocalTime(), timeEnd.toLocalTime()).toMinutes();
+                    duration = Duration.between(timeStart, endTime).toMinutes() + 1 +
+                            Duration.between(zeroTime, timeEnd).toMinutes();
                 }
                 examDate = LocalDate.parse(dataStart.substring(0, 10));
                 trukme = LocalTime.of((int) duration / 60, (int) duration % 60);
