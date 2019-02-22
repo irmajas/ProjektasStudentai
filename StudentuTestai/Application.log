@@ -1251,3 +1251,224 @@
 21:25:41.165 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
 21:25:41.167 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
 21:25:41.170 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+22:29:14.542 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+22:29:14.546 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+22:29:14.547 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+22:29:14.576 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+22:29:14.580 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+22:29:14.582 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+22:29:14.583 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+22:29:14.584 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 75
+22:29:14.585 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+22:29:14.587 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+22:29:14.588 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+22:29:14.597 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+22:29:14.599 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+22:29:14.703 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+22:29:14.705 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+22:29:14.706 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+23:26:08.491 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+23:26:08.495 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+23:26:08.496 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+12:51:28.802 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+12:51:28.831 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 70
+12:51:28.835 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+12:51:28.839 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 100
+13:02:09.128 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:02:09.134 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:02:09.135 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:02:09.250 [main] WARN  studentfiles.CountingExamRezult -  Klaida 03: nepavyko nuskaityti failo C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam144.json
+13:02:09.261 [main] WARN  studentfiles.CountingExamRezult -  Klaida 03: nepavyko nuskaityti failo C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam134.json
+13:02:09.269 [main] WARN  studentfiles.CountingExamRezult -  Klaida 03: nepavyko nuskaityti failo C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\Rezult\Exam124.json
+13:02:09.298 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:02:09.300 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:02:09.302 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:07:12.147 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:07:12.152 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:07:12.153 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:07:12.307 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:07:12.308 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:07:12.309 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:08:32.890 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:08:32.893 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:08:32.895 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:08:32.978 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:08:32.979 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:08:32.980 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:10:54.471 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+13:11:08.725 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+13:11:08.746 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 70
+13:11:08.750 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+13:11:08.754 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 100
+13:13:42.829 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+13:13:42.844 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 70
+13:13:42.847 [main] WARN  studentfiles.CountingExamRezult - Studentas Jonas JOnaitis laikė agzaminą 124 OOP. Pateiktų atsakymų skaičua nesutampa su pateikiamų klausimų skaičiumi
+13:13:42.850 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jonas JOnaitis laike agzamina 124 OOP. Rezultatas 100
+13:13:56.017 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:13:56.022 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:13:56.022 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:13:56.207 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:13:56.209 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:13:56.211 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:15:54.076 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:15:54.084 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:15:54.085 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:15:54.103 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:15:54.105 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+13:15:54.106 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+13:15:54.107 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+13:15:54.108 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:15:54.108 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+13:15:54.109 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+13:15:54.110 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:15:54.111 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+13:15:54.112 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+13:15:54.225 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:15:54.226 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:15:54.229 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:16:26.311 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:16:26.314 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:16:26.315 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:16:26.336 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:16:26.338 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+13:16:26.339 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+13:16:26.340 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+13:16:26.341 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:16:26.342 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+13:16:26.343 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+13:16:26.344 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+13:16:26.345 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+13:16:26.346 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+13:16:26.470 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:16:26.472 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:16:26.475 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:19:27.237 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:19:27.240 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:19:27.241 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:19:27.368 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:19:27.369 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:19:27.370 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+13:19:53.254 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+13:19:53.258 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+13:19:53.258 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+13:19:53.274 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+13:19:53.397 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+13:19:53.398 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+13:19:53.399 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+17:49:02.268 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+17:51:33.055 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+17:51:48.584 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+17:51:48.590 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+17:51:48.592 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+17:51:48.614 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+17:51:48.618 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+17:51:48.776 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+17:51:48.777 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+17:51:48.781 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+17:57:41.418 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino null OOP pagrindai teisingi atsakymai
+17:57:41.424 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+17:57:41.426 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+17:57:41.455 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+17:57:41.459 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:01:07.564 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino null OOP pagrindai teisingi atsakymai
+18:01:07.569 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:01:07.570 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:01:07.591 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+18:01:07.595 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:01:07.742 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:01:07.743 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:03:06.616 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino null OOP pagrindai teisingi atsakymai
+18:03:06.622 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:03:06.623 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:03:06.652 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+18:03:06.656 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:03:06.790 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:03:06.791 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:09:24.172 [main] WARN  studentfiles.ExamTestAnswers - Klaida. nepavyko įkelti teisingu atsakymu iš failo egzas1.json
+18:09:24.177 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino null OOP pagrindai teisingi atsakymai
+18:09:24.177 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:09:24.179 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:09:24.202 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+18:09:24.207 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:09:24.352 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:09:24.353 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:13:06.886 [main] WARN  studentfiles.ExamTestAnswers - Klaida. nepavyko įkelti teisingu atsakymu iš failo egzas1.json
+18:13:06.893 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:13:06.894 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:13:06.927 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+18:13:06.935 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:13:07.061 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:13:07.063 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:13:39.838 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 02 faile egzas1.json. Nepavyko įkelti agzamino atsakymų
+18:13:39.848 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:13:39.849 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:13:39.872 [main] WARN  studentfiles.StudensExamAnswers - Klaida. Nepavyko įkelti studento testo atsalymu is failo result1.json
+18:13:39.875 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:13:40.020 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:13:40.021 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:18:43.274 [main] WARN  studentfiles.ExamTestAnswers -  Klaida 02 faile egzas1.json. Nepavyko įkelti agzamino atsakymų
+18:18:43.284 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:18:43.285 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:18:43.311 [main] WARN  studentfiles.StudensExamAnswers - Klaida 06 faile result1.json. Nepavyko įkelti studento testo atsakymų
+18:18:43.316 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:18:43.496 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:18:43.497 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:19:00.266 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+18:19:00.270 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:19:00.271 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:19:00.304 [main] WARN  studentfiles.StudensExamAnswers - Klaida 06 faile result1.json. Nepavyko įkelti studento testo atsakymų
+18:19:00.315 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:19:00.462 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:19:00.463 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:19:00.467 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+18:22:43.389 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+18:22:43.396 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:22:43.399 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:22:43.427 [main] WARN  studentfiles.StudensExamAnswers - Klaida 06 faile result1.json. Nepavyko įkelti studento testo atsakymų
+18:22:43.430 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:22:43.433 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:22:43.436 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:22:43.438 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 75
+18:22:43.439 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:22:43.440 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:22:43.442 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+18:22:43.444 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:22:43.446 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+18:22:43.448 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:22:43.691 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:22:43.694 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:22:43.696 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+18:23:05.789 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+18:23:05.795 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:23:05.798 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:23:05.828 [main] WARN  studentfiles.StudensExamAnswers - Klaida 06 faile result1.json. Nepavyko įkelti studento testo atsakymų
+18:23:05.852 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:23:05.855 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:23:05.857 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:23:05.859 [main] ERROR studentfiles.StudensExamAnswers -  Klaida 04 faile result5.json. Nepavyko ikelti agzamino atsakymu
+18:23:05.860 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:23:05.862 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:23:05.863 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+18:23:05.864 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:23:05.866 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+18:23:05.868 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:23:06.038 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:23:06.039 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:23:06.041 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai
+18:23:34.428 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 124 OOP pagrindai teisingi atsakymai
+18:23:34.432 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 134 DB pagrindai teisingi atsakymai
+18:23:34.434 [main] INFO  studentfiles.UtilFiles - Ikelti egzamino 144 Java pagrindai teisingi atsakymai
+18:23:34.466 [main] WARN  studentfiles.StudensExamAnswers - Klaida 06 faile result1.json. Nepavyko įkelti studento testo atsakymų
+18:23:34.470 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rima Rimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:23:34.474 [main] INFO  studentfiles.CountingExamRezult -  Studentas Rasa Rastenyt laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:23:34.475 [main] INFO  studentfiles.CountingExamRezult -  Studentas Lina Linaite laike agzamina 124 OOP pagrindai. Rezultatas 50
+18:23:34.476 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jurgis Jurgutis laike agzamina 124 OOP pagrindai. Rezultatas 75
+18:23:34.477 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laurynas Laurutis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:23:34.478 [main] INFO  studentfiles.CountingExamRezult -  Studentas Laima Laimute laike agzamina 124 OOP pagrindai. Rezultatas 25
+18:23:34.493 [main] INFO  studentfiles.CountingExamRezult -  Studentas Petras Petraitis laike agzamina 124 OOP pagrindai. Rezultatas 75
+18:23:34.497 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 134 DB pagrindai. Rezultatas 20
+18:23:34.498 [main] INFO  studentfiles.CountingExamRezult -  Studentas Jeronimas Juraitis laike agzamina 144 Java pagrindai. Rezultatas 95
+18:23:34.500 [main] INFO  studentfiles.CountingExamRezult -  Studentas Maryte Martinaite laike agzamina 144 Java pagrindai. Rezultatas 78
+18:23:34.645 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 144 Java pagrindai rezultatai
+18:23:34.647 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 134 DB pagrindai rezultatai
+18:23:34.648 [main] INFO  studentfiles.UtilFiles - Įrašyti egzamino 124 OOP pagrindai rezultatai

@@ -23,7 +23,7 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
         super();
     }
 
-    public ExamTestAnswers(String examID, String pavadinimas, String tipas, String[] ats) {
+    public ExamTestAnswers(String examID, String pavadinimas, TestType tipas, String[] ats) {
         super(examID, pavadinimas, tipas);
         this.ats = ats;
     }
@@ -68,8 +68,13 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
             }
             this.setExamID((String) ob.get("id"));
             this.setPavadinimas((String) ob.get("pavadinimas"));
-            this.setTipas((String) ob.get("tipas"));
-
+            this.setTipas(Util.findEnum((String) ob.get("tipas")));
+            if (this.getPavadinimas() == null || this.getTipas() == null) {
+                this.setExamID(null);
+            }
+            if (this.getExamID()==null){
+                LOG.warn("Klaida 05 faile {}. Nepavyko įkelti teisingu atsakymų",kelias.getFileName());
+            }
 
         }
         // catch (JsonMappingException e) {e.printStackTrace();}

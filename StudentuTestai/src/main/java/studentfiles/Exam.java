@@ -3,13 +3,13 @@ package studentfiles;
 public abstract class Exam {
     private String examID;
     private String pavadinimas;
-    private String tipas;
+    private TestType tipas;
 
     public Exam() {
 
     }
 
-    public Exam(String examID, String pavadinimas, String tipas) {
+    public Exam(String examID, String pavadinimas, TestType tipas) {
         this.examID = examID;
         this.pavadinimas = pavadinimas;
         this.tipas = tipas;
@@ -31,11 +31,11 @@ public abstract class Exam {
         this.pavadinimas = pavadinimas;
     }
 
-    public String getTipas() {
+    public TestType getTipas() {
         return tipas;
     }
 
-    public void setTipas(String tipas) {
+    public void setTipas(TestType tipas) {
         this.tipas = tipas;
     }
 

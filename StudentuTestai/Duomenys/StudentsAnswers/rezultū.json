@@ -1,4 +1,11 @@
 {
+  "testo_pradzia": "2019-02-11 11:30",
+  "testo_pabaiga": "2019-02-11 12:15",
+  "studentas": {
+    "id": "9585",
+    "vardas": "Maryte",
+    "pavarde": "Martinaite"
+  },
   "egzaminas": {
     "id": "144",
     "pavadinimas": "Java pagrindai",
@@ -7,23 +14,23 @@
   "atsakymai": [
     {
       "klausimas": 1,
-      "atsakymas": "ab"
+      "atsakymas": "ac"
     },
     {
       "klausimas": 2,
-      "atsakymas": "bcd"
+      "atsakymas": "bacd"
     },
     {
       "klausimas": 3,
-      "atsakymas": "ad"
+      "atsakymas": "acd"
     },
     {
       "klausimas": 4,
-      "atsakymas": "bcd"
+      "atsakymas": "bad"
     },
     {
       "klausimas": 5,
-      "atsakymas": "bce"
+      "atsakymas": "bae"
     },
     {
       "klausimas": 6,

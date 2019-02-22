@@ -2,18 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734c2708-a42f-4164-bd99-8389d246d79e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Duomenys/Answers/egzas3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/studentfiles/CountingExamRezult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezultū.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/studentfiles/TestType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/Answers/egzas3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/Answers/egzas3.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duomenys/Rezult/Exam124.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/Rezult/Exam124.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Duomenys/Rezult/Exam134.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/Rezult/Exam134.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/Rezult/Exam144.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/Rezult/Exam144.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json" beforeDir="false" afterPath="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/result9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/rezult1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Duomenys/atsarginiai/rezult6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/studentfiles/UtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/studentfiles/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentfiles/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/studentfiles/ExamTestAnswers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentfiles/ExamTestAnswers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/studentfiles/Rezults.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentfiles/Rezults.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/studentfiles/StudensExamAnswers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentfiles/StudensExamAnswers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/studentfiles/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/studentfiles/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,55 +47,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1815006633">
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="15" />
-          <entry key="json" value="15" />
-          <entry key="log" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="15" />
-          <entry key="JSON" value="15" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="4" />
-          <entry key="java" value="850" />
-          <entry key="json" value="89" />
-          <entry key="txt" value="37" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="850" />
-          <entry key="JSON" value="89" />
-          <entry key="PLAIN_TEXT" value="41" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Util.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/CountingExamRezult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="286">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,40 +62,100 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas3.json">
+        <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="44">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java">
+        <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam124.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-631">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state>
+              <caret column="853" selection-start-column="853" selection-end-column="853" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1125">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#996#997#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1105#1106#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1192#1193#0" expanded="true" />
+                <element signature="e#1236#1237#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1387#1388#0" expanded="true" />
+                <element signature="e#1425#1426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="178">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -125,6 +167,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -151,33 +194,38 @@
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/result5.json" />
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult2.json" />
         <option value="$PROJECT_DIR$/src/main/java/studentfiles/Student.java" />
-        <option value="$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java" />
-        <option value="$PROJECT_DIR$/Duomenys/Answers/egzas1.json" />
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult6.json" />
         <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam134DB pagrindai.json" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Main.java" />
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult1.json" />
         <option value="$PROJECT_DIR$/Duomenys/Answers/egzas2.json" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java" />
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/result9.json" />
         <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam124OOP pagrindai.json" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Exam.java" />
         <option value="$PROJECT_DIR$/src/main/java/studentfiles/StudentResult.java" />
         <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/result7.json" />
         <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam134.json" />
-        <option value="$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/studentfiles/UtilFilesTest.java" />
-        <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam124.json" />
         <option value="$PROJECT_DIR$/src/test/java/studentfiles/UtilTest.java" />
         <option value="$PROJECT_DIR$/Duomenys/atsarginiai/egzas3.json" />
         <option value="$PROJECT_DIR$/Duomenys/atsarginiai/rezult7.json" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java" />
         <option value="$PROJECT_DIR$/src/main/java/studentfiles/CountingExamRezult.java" />
-        <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam144.json" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Exam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/TestType.java" />
+        <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json" />
+        <option value="$PROJECT_DIR$/Duomenys/Answers/egzas3.json" />
         <option value="$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java" />
+        <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam124.json" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Main.java" />
+        <option value="$PROJECT_DIR$/Duomenys/atsarginiai/rezultū.json" />
+        <option value="$PROJECT_DIR$/Duomenys/Rezult/Exam144.json" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java" />
+        <option value="$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java" />
+        <option value="$PROJECT_DIR$/Duomenys/Answers/egzas1.json" />
       </list>
     </option>
   </component>
@@ -205,10 +253,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+    <option name="x" value="120" />
+    <option name="y" value="-40" />
+    <option name="width" value="1625" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -289,13 +337,6 @@
               <item name="StudentuTestai" type="b2602c69:ProjectViewProjectNode" />
               <item name="StudentuTestai" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="StudentuTestai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="StudentuTestai" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -318,6 +359,12 @@
               <item name="StudentuTestai" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudentuTestai" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentuTestai" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -325,7 +372,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550690886920" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550852611476" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/WorkingWithRegex" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -342,151 +389,19 @@
       <recent name="studentfiles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\atsarginiai" />
       <recent name="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\atsarginiai" />
       <recent name="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\Answers" />
       <recent name="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
       <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
+      <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\atsarginiai" />
       <recent name="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
       <recent name="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\atsarginiai" />
-      <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
       <recent name="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\atsargai" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Application.log</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult1.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/Exam.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/Main.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/StudentResult.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/Util.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/ExamTestAnswers.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/Rezults.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/StudensExamAnswers.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/StudentResult.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/Util.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/Answers/egzas1.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/Answers/egzas2.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/Rezult/Exam124.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/Rezult/Exam134.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/StudentsAnswers/result9.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult6.json</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/studentfiles/Studentai.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/studentfiles/Studentai.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -504,7 +419,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="studentfiles.Main" />
       <module name="StudentuTestai" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\Answers C:\Users\IrmaJ\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\Answers C:\Users\irmaj\ProjektasStudentai\StudentuTestai\Duomenys\StudentsAnswers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="studentfiles.*" />
@@ -543,38 +458,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingExamRezulttest.getRezultWithfewAnswers_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentuTestai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="studentfiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="studentfiles" />
-      <option name="MAIN_CLASS_NAME" value="studentfiles.CountingExamRezulttest" />
-      <option name="METHOD_NAME" value="getRezultWithfewAnswers_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingExamRezulttest.rezult_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentuTestai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="studentfiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="studentfiles" />
-      <option name="MAIN_CLASS_NAME" value="studentfiles.CountingExamRezulttest" />
-      <option name="METHOD_NAME" value="rezult_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CountingExamRezulttest.rezult_testklaida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StudentuTestai" />
       <extension name="coverage">
@@ -591,20 +474,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudensExamAnswerstest.getFromFileTestWithDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentuTestai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studentfiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="studentfiles" />
+      <option name="MAIN_CLASS_NAME" value="studentfiles.StudensExamAnswerstest" />
+      <option name="METHOD_NAME" value="getFromFileTestWithDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentuTestai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studentfiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="studentfiles" />
+      <option name="MAIN_CLASS_NAME" value="studentfiles.StudensExamAnswerstest" />
+      <option name="METHOD_NAME" value="getFromFileTestWithDate_testBadData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.CountingExamRezulttest.rezult_test" />
       <item itemvalue="JUnit.CountingExamRezulttest.rezult_testklaida" />
       <item itemvalue="JUnit.CountingExamRezulttest" />
-      <item itemvalue="JUnit.CountingExamRezulttest.getRezultWithfewAnswers_test" />
+      <item itemvalue="JUnit.StudensExamAnswerstest.getFromFileTestWithDate" />
+      <item itemvalue="JUnit.StudensExamAnswerstest.getFromFileTestWithDate_testBadData" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CountingExamRezulttest.rezult_testklaida" />
-        <item itemvalue="JUnit.CountingExamRezulttest.getRezultWithfewAnswers_test" />
-        <item itemvalue="JUnit.CountingExamRezulttest.rezult_test" />
+        <item itemvalue="JUnit.StudensExamAnswerstest.getFromFileTestWithDate_testBadData" />
         <item itemvalue="JUnit.CountingExamRezulttest" />
+        <item itemvalue="JUnit.CountingExamRezulttest.rezult_testklaida" />
+        <item itemvalue="JUnit.StudensExamAnswerstest.getFromFileTestWithDate" />
       </list>
     </recent_temporary>
   </component>
@@ -637,42 +552,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 51m 19s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate - 2019.02.22 at 13h 00m 39s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 52m 02s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate - 2019.02.22 at 13h 02m 00s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 52m 18s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="CountingExamRezulttest_rezult_testklaida - 2019.02.22 at 13h 10m 54s.xml">
+      <configuration name="CountingExamRezulttest.rezult_testklaida" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 52m 49s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="CountingExamRezulttest - 2019.02.22 at 13h 11m 09s.xml">
+      <configuration name="CountingExamRezulttest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 53m 48s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="CountingExamRezulttest - 2019.02.22 at 13h 13m 43s.xml">
+      <configuration name="CountingExamRezulttest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 54m 03s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate_testBadData - 2019.02.22 at 17h 43m 17s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 54m 48s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate_testBadData - 2019.02.22 at 17h 44m 14s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 20h 57m 06s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate_testBadData - 2019.02.22 at 17h 44m 49s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_getRezultWithfewAnswers_test - 2019.02.20 at 21h 14m 23s.xml">
-      <configuration name="UtilTest.getRezultWithfewAnswers_test" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate_testBadData - 2019.02.22 at 17h 49m 02s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UtilTest_rezult_testklaida - 2019.02.20 at 21h 24m 22s.xml">
-      <configuration name="UtilTest.rezult_testklaida" configurationId="JUnit" />
+    <history-entry file="StudensExamAnswerstest_getFromFileTestWithDate_testBadData - 2019.02.22 at 17h 51m 33s.xml">
+      <configuration name="StudensExamAnswerstest.getFromFileTestWithDate_testBadData" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -682,7 +596,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.36" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.35871157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -696,14 +610,14 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.020134227" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.12147651" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.092750534" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19798657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -713,7 +627,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.4612006" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.35871157" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -727,11 +641,11 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.020134227" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.12147651" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.092750534" />
     </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
@@ -757,14 +671,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/result3.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result3.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/result4.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result4.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
@@ -772,7 +686,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult2.json" />
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/result5.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result5.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
@@ -788,9 +702,91 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Studentai.java" />
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam134DB pagrindai.json" />
+    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam124OOP pagrindai.json" />
+    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/StudentuTestai2/target/classes/studentfiles/Rezults.class" />
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result7.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/exam1.json" />
+    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam134.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/UtilFilesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result9.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/egzas3.json" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Exam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
+        <state relative-caret-position="234">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#363#364#0" expanded="true" />
@@ -806,110 +802,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="21" selection-start-line="56" selection-start-column="7" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/rezult1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam134DB pagrindai.json" />
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/result9.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam124OOP pagrindai.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/IdeaProjects/StudentuTestai2/target/classes/studentfiles/Rezults.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/StudentResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="-241">
           <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#792#793#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result7.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="242">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/exam1.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezultū.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="-22">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas3.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam134.json">
+    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam124.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state>
+          <caret column="853" selection-start-column="853" selection-end-column="853" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/rezult6.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application.log">
+    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam144.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483" />
+        <state relative-caret-position="88">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/CountingExamRezult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="87">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -918,15 +856,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/StudensExamAnswerstest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="329">
+          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/TestType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="67" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/StudensExamAnswers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="151">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#966#967#0" expanded="true" />
@@ -945,143 +939,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/UtilFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="64" column="126" selection-start-line="64" selection-start-column="126" selection-end-line="64" selection-end-column="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/UtilFilesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/result9.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam124.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/atsarginiai/egzas3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/StudentsAnswers/rezult7.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Answers/egzas3.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="-1747">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Rezults.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#750#751#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/ExamTestAnswers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Duomenys/Rezult/Exam144.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/studentfiles/CountingExamRezult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="176">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/CountingExamRezulttest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/studentfiles/ExamTestAnswersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="178">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

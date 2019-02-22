@@ -24,9 +24,10 @@ public class UtilFiles {
             Path isKur = kelias.resolve(s);
             ExamTestAnswers ats = new ExamTestAnswers();
             ats.getFromFile(isKur);
-            if (!(ats.getPavadinimas() == null))
+            if (!(ats.getExamID() == null)) {
                 mas.put(ats.getExamID(), ats);
-            LOG.info("Ikelti egzamino {} {} teisingi atsakymai", ats.getExamID(), ats.getPavadinimas());
+                LOG.info("Ikelti egzamino {} {} teisingi atsakymai", ats.getExamID(), ats.getPavadinimas());
+            }
         }
         return mas;
 

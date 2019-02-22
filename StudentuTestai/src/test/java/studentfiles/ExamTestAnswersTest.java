@@ -17,7 +17,7 @@ public class ExamTestAnswersTest {
         String a[] = {"a", "a", "d", "c"};
         assertEquals("124", atsakymai.getExamID());
         assertEquals("OOP pagrindai", atsakymai.getPavadinimas());
-        assertEquals("testas", atsakymai.getTipas());
+        assertEquals(TestType.TEST, atsakymai.getTipas());
         assertArrayEquals(a, atsakymai.getAts());
     }
 }

@@ -22,4 +22,17 @@ public class StudensExamAnswerstest {
         assertEquals("Petraitis", studAts.getStudent().getPavarde());
         assertArrayEquals(a, studAts.getAts());
     }
+    @Test
+    void getFromFileTestWithDate_testBadData() {
+        StudensExamAnswers studAts = new StudensExamAnswers();
+        Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\StudentsAnswers\\result1.json");
+        studAts.getFromFile(iskur);
+        String a[] = {"c", "a", "d", "c"};
+        assertEquals("01:18", studAts.getEgzam_trukme());
+        assertEquals("2019-05-06", studAts.getEgzam_data());
+        assertEquals(null, studAts.getStudent().getId());
+        assertEquals(null, studAts.getStudent().getVardas());
+        assertEquals("Petraitis", studAts.getStudent().getPavarde());
+        assertArrayEquals(a, studAts.getAts());
+    }
 }

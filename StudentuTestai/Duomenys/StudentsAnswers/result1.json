@@ -5,12 +5,12 @@
 
   "studentas": {
     "id": "1256",
-    "vardas": "Petras",
+    "vassrdas": "Petras",
     "pavarde": "Petraitis"
   },
   "egzaminas": {
     "id": "124",
-    "pavadinimas": "OOP pagrindai",
+    "pavadifgfgnimas": "OOP pagrindai",
     "tipas": "testas"
   },
   "atsakymai": [

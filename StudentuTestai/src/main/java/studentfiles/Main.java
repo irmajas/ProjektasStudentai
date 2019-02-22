@@ -20,7 +20,7 @@ public class Main {
         atsakymai = UtilFiles.getAllAnswers(kelias);
 //tikrinam nurodytam aplanke esancius studentu testus
         List<Rezults> studenturezultatai = Util.tikrintiTestuRezultatus(atsakymai, keliasrez);
-//gaunam kelia iki resultatu aplanko
+ //gaunam kelia iki resultatu aplanko
          Path keliasBendras =kelias.getParent();
 
         Path keliasRezExam = keliasBendras.resolve("Rezult");

@@ -6,7 +6,7 @@ import java.util.List;
 public class Rezults extends Exam {
     private List<StudentResult> egzaminoRezultatai= new ArrayList<>();
 
-    public Rezults(String examID, String pavadinimas, String tipas) {
+    public Rezults(String examID, String pavadinimas, TestType tipas) {
         super(examID, pavadinimas, tipas);
         this.egzaminoRezultatai = new ArrayList<>();
     }

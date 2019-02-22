@@ -12,14 +12,14 @@ public class CountingExamRezulttest {
         ExamTestAnswers exam = new ExamTestAnswers();
         exam.setExamID("124");
         exam.setPavadinimas("OOP");
-        exam.setTipas("testas");
+        exam.setTipas(TestType.TEST);
         String[] ats = {"a", "b", "c", "a", "d", "c"};
         exam.setAts(ats);
         StudensExamAnswers studensExamAnswers = new StudensExamAnswers();
         studensExamAnswers.setStudent(stud);
         studensExamAnswers.setExamID("124");
         studensExamAnswers.setPavadinimas("OOP");
-        studensExamAnswers.setTipas("testas");
+        studensExamAnswers.setTipas(TestType.TEST);
         studensExamAnswers.setAts(ats);
         int rez;
         rez = CountingExamRezult.getRezult(studensExamAnswers, exam);
@@ -33,7 +33,7 @@ public class CountingExamRezulttest {
         ExamTestAnswers exam = new ExamTestAnswers();
         exam.setExamID("124");
         exam.setPavadinimas("OOP");
-        exam.setTipas("testas");
+        exam.setTipas(TestType.TEST);
         String[] ats = {"a", "b", "c", "a", "d"};
         String[] ats1 = {"a", "b", "c", "a", "d", "c"};
         exam.setAts(ats);
@@ -41,7 +41,7 @@ public class CountingExamRezulttest {
         studensExamAnswers.setStudent(stud);
         studensExamAnswers.setExamID("124");
         studensExamAnswers.setPavadinimas("OOP");
-        studensExamAnswers.setTipas("testas");
+        studensExamAnswers.setTipas(TestType.TEST);
         studensExamAnswers.setAts(ats1);
         int rez;
         rez = CountingExamRezult.getRezult(studensExamAnswers, exam);
@@ -55,7 +55,7 @@ public class CountingExamRezulttest {
         ExamTestAnswers exam = new ExamTestAnswers();
         exam.setExamID("124");
         exam.setPavadinimas("OOP");
-        exam.setTipas("testas");
+        exam.setTipas(TestType.TEST);
         String[] teisats = {"ab", "bd", "ca", "ab", "d", "cd"};
         String[] ats = {"ab", "bd", "cda", "abc", "dc", "ca"};
         exam.setAts(teisats);
@@ -63,7 +63,7 @@ public class CountingExamRezulttest {
         studensExamAnswers.setStudent(stud);
         studensExamAnswers.setExamID("124");
         studensExamAnswers.setPavadinimas("OOP");
-        studensExamAnswers.setTipas("testas");
+        studensExamAnswers.setTipas(TestType.TEST_WITH_FEW_ANSWERS);
 
         studensExamAnswers.setAts(ats);
         int rez;
@@ -77,7 +77,7 @@ public class CountingExamRezulttest {
         ExamTestAnswers exam = new ExamTestAnswers();
         exam.setExamID("124");
         exam.setPavadinimas("OOP");
-        exam.setTipas("testas");
+        exam.setTipas(TestType.TEST_WITH_FEW_ANSWERS);
         String[] teisats = {"ab", "bd", "ca", "ab", "d", "cd"};
         String[] ats = {"ab", "bd", "cda", "abc", "dc"};
         exam.setAts(teisats);
@@ -85,7 +85,7 @@ public class CountingExamRezulttest {
         studensExamAnswers.setStudent(stud);
         studensExamAnswers.setExamID("124");
         studensExamAnswers.setPavadinimas("OOP");
-        studensExamAnswers.setTipas("testas");
+        studensExamAnswers.setTipas(TestType.TEST_WITH_FEW_ANSWERS);
 
         studensExamAnswers.setAts(ats);
         int rez;

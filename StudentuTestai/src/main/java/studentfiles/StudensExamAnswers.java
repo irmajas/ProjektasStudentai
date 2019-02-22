@@ -117,14 +117,24 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             }
 
             this.student = new Student(id, vardas, pavarde);
+            if (this.student.getPavarde()==null || this.student.getVardas()==null) {
+                this.student.setId(null);
+            }
             this.setExamID((String) ob2.get("id"));
             this.setPavadinimas((String) ob2.get("pavadinimas"));
-            this.setTipas((String) ob2.get("tipas"));
+            this.setTipas(Util.findEnum((String) ob2.get("tipas")));
+            if (this.getExamID()==null || this.getPavadinimas()==null || this.getTipas()==null){
+                this.student.setId(null);
+            }
+            if (this.student.getId()==null){
+                LOG.warn("Klaida 06 faile {}. Nepavyko įkelti studento testo atsakymų",kelias.getFileName());
+            }
             this.setAts(atsakym);
             this.setEgzam_data(examDate.toString());
             this.setEgzam_trukme(trukme.toString());
+
         } catch (JsonParseException e) {
-            LOG.error(" Klaida 03 faile {}.Nnepavyko ikelti agzamino atsakymu", kelias.getFileName());
+            LOG.error(" Klaida 03 faile {}. Nnepavyko ikelti agzamino atsakymu", kelias.getFileName());
         } catch (ParseException e) {
             LOG.error(" Klaida 04 faile {}. Nepavyko ikelti agzamino atsakymu", kelias.getFileName());
         } catch (IOException e) {

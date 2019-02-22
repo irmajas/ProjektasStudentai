@@ -15,7 +15,7 @@ import java.util.stream.Stream;
 
 public class Util {
 
-// Tikrinti testu rezultatus
+    // Tikrinti testu rezultatus
     static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
 // paruosiam mapa kiekvieno egzamino rezultatams
         List<Rezults> rezultatai = new ArrayList<>();
@@ -39,9 +39,13 @@ public class Util {
             } else {
 
                 if (atsakymai.containsKey(studAts.getExamID())) {
-                int rez=0;
-                  if (studAts.getTipas().equals("testas")){  rez = CountingExamRezult.getRezult(studAts, atsakymai.get(studAts.getExamID()));}
-                    if (studAts.getTipas().equals("testasSuVariantais")){  rez = CountingExamRezult.getRezultWithfewAnswers(studAts, atsakymai.get(studAts.getExamID()));}
+                    int rez = 0;
+                    if (studAts.getTipas().equals(TestType.TEST)) {
+                        rez = CountingExamRezult.getRezult(studAts, atsakymai.get(studAts.getExamID()));
+                    }
+                    if (studAts.getTipas().equals(TestType.TEST_WITH_FEW_ANSWERS)) {
+                        rez = CountingExamRezult.getRezultWithfewAnswers(studAts, atsakymai.get(studAts.getExamID()));
+                    }
 
                     //jei pavyko paskaiciuoti rezultata
                     if (rez != -1) {
@@ -64,7 +68,7 @@ public class Util {
         return rezultatai;
     }
 
-//Lyginam naujus egzamino rezultatus su esamais
+    //Lyginam naujus egzamino rezultatus su esamais
     static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
@@ -104,7 +108,7 @@ public class Util {
         return rezultatai;
     }
 
-// lyginam du resultatu List'us
+    // lyginam du resultatu List'us
     static Rezults addingNewResults(Rezults rezold, Rezults reznew) {
         List<StudentResult> studentOld = rezold.getEgzaminoRezultatai();
         List<StudentResult> studentNew = reznew.getEgzaminoRezultatai();
@@ -116,5 +120,14 @@ public class Util {
         return reznew;
     }
 
+    // gauti enum reiksme
+    public static TestType findEnum(String tipas) {
+        for (TestType v : TestType.values()) {
+            if (v.getTestas().equals(tipas)) {
+                return v;
+            }
+        }
+        return null;
+    }
 }
 
