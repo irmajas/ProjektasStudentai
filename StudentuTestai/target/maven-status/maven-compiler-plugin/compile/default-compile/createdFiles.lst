@@ -1,11 +1,12 @@
+studentfiles\Student.class
+studentfiles\StudentResult.class
+studentfiles\StudensExamAnswers.class
+studentfiles\Util.class
 studentfiles\ExamTestAnswers.class
 studentfiles\Exam.class
-studentfiles\Student.class
 studentfiles\UtilFiles.class
 studentfiles\Main.class
 studentfiles\Rezults.class
 studentfiles\CountingExamRezult.class
 studentfiles\GetFromFiles.class
-studentfiles\StudentResult.class
-studentfiles\StudensExamAnswers.class
-studentfiles\Util.class
+studentfiles\TestType.class

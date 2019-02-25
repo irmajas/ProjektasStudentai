@@ -9,12 +9,13 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UtilFilesTest {
+    //tikrinam ar teisingai nuskaito aplanko failu sarasa
     @Test
-    public void getFileList_test (){
-        Path kel= Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\Answers");
+    public void getFileList_test() {
+        Path kel = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\Answers");
         List<String> failai = UtilFiles.getFileList(kel);
-        assertEquals (2, failai.size());
-        assertEquals (true, failai.contains("egzas1.json"));
-        assertEquals (true, failai.contains("egzas2.json"));
+        assertEquals(4, failai.size());
+        assertEquals(true, failai.contains("egzas1.json"));
+        assertEquals(true, failai.contains("egzas2.json"));
     }
 }

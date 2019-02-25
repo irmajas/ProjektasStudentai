@@ -63,10 +63,10 @@ public class UtilFiles {
             }
         }
         for (Rezults rez : rezultatai) {
-            File fileatsalymas = new File(String.valueOf(Paths.get(String.valueOf(kelias)).resolve("Exam" + rez.getExamID() +  ".json")));
+            File fileatsalymas = new File(String.valueOf(Paths.get(String.valueOf(kelias)).resolve("Exam" + rez.getExamID() + ".json")));
             try {
-               om.writeValue(fileatsalymas, rez);
-               LOG.info("Įrašyti egzamino {} {} rezultatai",rez.getExamID(), rez.getPavadinimas());
+                om.writeValue(fileatsalymas, rez);
+                LOG.info("Įrašyti egzamino {} {} rezultatai", rez.getExamID(), rez.getPavadinimas());
             } catch (IOException e) {
                 LOG.warn("Klaida 03: nepavyko įrašyti egzamino rezultatų failo  {}", "Exam" + rez.getExamID() + rez.getPavadinimas());
 

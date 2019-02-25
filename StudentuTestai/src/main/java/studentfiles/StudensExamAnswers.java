@@ -78,8 +78,8 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             try {
                 LocalTime timeEnd = LocalTime.parse(dataEnd.substring(11));
                 LocalTime timeStart = LocalTime.parse(dataStart.substring(11));
-                LocalTime zeroTime = LocalTime.of(0,0);
-                LocalTime endTime = LocalTime.of (23,59,59);
+                LocalTime zeroTime = LocalTime.of(0, 0);
+                LocalTime endTime = LocalTime.of(23, 59, 59);
                 long duration;
                 if (timeStart.isBefore(timeEnd)) {
                     duration = Duration.between(timeStart, timeEnd).toMinutes();
@@ -117,17 +117,17 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             }
 
             this.student = new Student(id, vardas, pavarde);
-            if (this.student.getPavarde()==null || this.student.getVardas()==null) {
+            if (this.student.getPavarde() == null || this.student.getVardas() == null) {
                 this.student.setId(null);
             }
             this.setExamID((String) ob2.get("id"));
             this.setPavadinimas((String) ob2.get("pavadinimas"));
             this.setTipas(Util.findEnum((String) ob2.get("tipas")));
-            if (this.getExamID()==null || this.getPavadinimas()==null || this.getTipas()==null){
+            if (this.getExamID() == null || this.getPavadinimas() == null || this.getTipas() == null) {
                 this.student.setId(null);
             }
-            if (this.student.getId()==null){
-                LOG.warn("Klaida 06 faile {}. Nepavyko įkelti studento testo atsakymų",kelias.getFileName());
+            if (this.student.getId() == null) {
+                LOG.warn("Klaida 06 faile {}. Nepavyko įkelti studento testo atsakymų", kelias.getFileName());
             }
             this.setAts(atsakym);
             this.setEgzam_data(examDate.toString());

@@ -17,15 +17,15 @@ public class Util {
 
     // Tikrinti testu rezultatus
     static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
-// paruosiam mapa kiekvieno egzamino rezultatams
+        // paruosiam mapa kiekvieno egzamino rezultatams
         List<Rezults> rezultatai = new ArrayList<>();
 
         for (Map.Entry<String, ExamTestAnswers> ent : atsakymai.entrySet()) {
             rezultatai.add(new Rezults(ent.getValue().getExamID(), ent.getValue().getPavadinimas(), ent.getValue().getTipas()));
         }
-//gaunam sarasa failu su studentu testo rezultatais
+        //gaunam sarasa failu su studentu testo rezultatais
         List<String> collect = UtilFiles.getFileList(keliasrez);
-//skaiciuojam kiekvieno testo rezultatus
+        //skaiciuojam kiekvieno testo rezultatus
         for (String s : collect
         ) {
             Path iskur = keliasrez.resolve(s);
@@ -45,6 +45,9 @@ public class Util {
                     }
                     if (studAts.getTipas().equals(TestType.TEST_WITH_FEW_ANSWERS)) {
                         rez = CountingExamRezult.getRezultWithfewAnswers(studAts, atsakymai.get(studAts.getExamID()));
+                    }
+                    if (studAts.getTipas().equals(TestType.TEST_WRITE_ANSWERS)) {
+                        rez = CountingExamRezult.getRezultWithAnswers(studAts, atsakymai.get(studAts.getExamID()));
                     }
 
                     //jei pavyko paskaiciuoti rezultata
@@ -79,12 +82,9 @@ public class Util {
                 CountingExamRezult.LOG.error("Klaida 02: neteisingai nurodyta direktorija egzamino rezultatu failams", kelias.getFileName());
                 System.exit(-1);
             }
-
-
         }
 
-        for (Rezults resul : rezultatai
-        ) {
+        for (Rezults resul : rezultatai) {
             String filename = "Exam" + resul.getExamID() + ".json";
 
             Path kurs = kelias.resolve(filename);
@@ -101,7 +101,6 @@ public class Util {
                     CountingExamRezult.LOG.warn(" Klaida 03: nepavyko nuskaityti failo {}", kurs);
                     System.out.println(e);
                 }
-
             }
         }
 

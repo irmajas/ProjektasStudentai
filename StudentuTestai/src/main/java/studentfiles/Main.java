@@ -10,7 +10,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws JsonProcessingException {
-
+        //tikrinam, ar programai perduoti du parametrai
+        if (args.length != 2) {
+            System.out.println("nurodykite paramentrus: teisingu_atsakymu_katalogas studentu-atsakymu_katalogas");
+            System.exit(-2);
+        }
 
         Path keliasrez = Paths.get(args[1]);
         Path kelias = Paths.get(args[0]);
@@ -20,8 +24,8 @@ public class Main {
         atsakymai = UtilFiles.getAllAnswers(kelias);
 //tikrinam nurodytam aplanke esancius studentu testus
         List<Rezults> studenturezultatai = Util.tikrintiTestuRezultatus(atsakymai, keliasrez);
- //gaunam kelia iki resultatu aplanko
-         Path keliasBendras =kelias.getParent();
+        //gaunam kelia iki resultatu aplanko
+        Path keliasBendras = kelias.getParent();
 
         Path keliasRezExam = keliasBendras.resolve("Rezult");
 

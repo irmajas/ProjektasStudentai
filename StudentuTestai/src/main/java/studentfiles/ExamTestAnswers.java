@@ -72,8 +72,8 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
             if (this.getPavadinimas() == null || this.getTipas() == null) {
                 this.setExamID(null);
             }
-            if (this.getExamID()==null){
-                LOG.warn("Klaida 05 faile {}. Nepavyko įkelti teisingu atsakymų",kelias.getFileName());
+            if (this.getExamID() == null) {
+                LOG.warn("Klaida 05 faile {}. Nepavyko įkelti teisingu atsakymų", kelias.getFileName());
             }
 
         }

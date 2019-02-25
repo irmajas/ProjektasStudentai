@@ -13,6 +13,7 @@ public class StudentResult extends Student {
     public StudentResult() {
         super();
     }
+
     public StudentResult(String id, String vardas, String pavarde) {
         super(id, vardas, pavarde);
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Rezults extends Exam {
-    private List<StudentResult> egzaminoRezultatai= new ArrayList<>();
+    private List<StudentResult> egzaminoRezultatai = new ArrayList<>();
 
     public Rezults(String examID, String pavadinimas, TestType tipas) {
         super(examID, pavadinimas, tipas);

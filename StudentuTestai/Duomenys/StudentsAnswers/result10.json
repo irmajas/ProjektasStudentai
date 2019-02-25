@@ -1,0 +1,57 @@
+{
+  "testo_pradzia":"2019-02-06 14:30",
+  "testo_pabaiga":"2019-02-06 15:21",
+
+  "studentas":{
+    "id":"6522",
+    "vardas":"Asta",
+    "pavarde":"Astaite"
+  },
+  "egzaminas": {
+    "id": "154",
+    "pavadinimas": "Anglų kalbos testas",
+    "tipas": "testas irasyti atsakynus"
+  },
+  "atsakymai": [
+    {
+      "klausimas": 1,
+      "atsakymas": "and,or"
+    },
+    {
+      "klausimas": 2,
+      "atsakymas": "the,the,a"
+    },
+    {
+      "klausimas": 3,
+      "atsakymas": "are,am,is"
+    },
+    {
+      "klausimas": 4,
+      "atsakymas": "have,have,has"
+    },
+    {
+      "klausimas": 5,
+      "atsakymas": "was,been,have"
+    },
+    {
+      "klausimas": 6,
+      "atsakymas": "is,is,are"
+    },
+    {
+      "klausimas": 7,
+      "atsakymas": "the,a,the"
+    },
+    {
+      "klausimas": 8,
+      "atsakymas": "up,down,left"
+    },
+    {
+      "klausimas": 9,
+      "atsakymas": "before,after"
+    },
+    {
+      "klausimas": 10,
+      "atsakymas": "in,out,below"
+    }
+  ]
+}
