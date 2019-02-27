@@ -1,14 +1,15 @@
 package studentfiles;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import exams.ExamTestAnswers;
+import utilits.*;
+
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.List;
 
-public class Main {
+public class StutentsTests {
     public static void main(String[] args) {
         //tikrinam, ar programai perduoti du parametrai
         if (args.length != 2) {

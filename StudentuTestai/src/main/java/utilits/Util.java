@@ -1,6 +1,10 @@
-package studentfiles;
+package utilits;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import exams.ExamTestAnswers;
+import studentfiles.*;
+import students.StudensExamAnswers;
+import students.StudentResult;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -16,7 +20,7 @@ import java.util.stream.Stream;
 public class Util {
 
     // Tikrinti testu rezultatus
-    static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
+    public static List<Rezults> tikrintiTestuRezultatus(HashMap<String, ExamTestAnswers> atsakymai, Path keliasrez) {
         // paruosiam mapa kiekvieno egzamino rezultatams
         List<Rezults> rezultatai = new ArrayList<>();
 
@@ -72,7 +76,7 @@ public class Util {
     }
 
     //Lyginam naujus egzamino rezultatus su esamais
-    static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
+    public static List<Rezults> checkWithExists(Path kelias, List<Rezults> rezultatai) {
 
         List<String> atsFailai = new ArrayList<>();
         if (Files.exists(kelias)) {

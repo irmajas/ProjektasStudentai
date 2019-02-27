@@ -1,5 +1,8 @@
 package studentfiles;
 
+import exams.Exam;
+import students.StudentResult;
+
 import java.util.ArrayList;
 import java.util.List;
 

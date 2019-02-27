@@ -1,8 +1,10 @@
-package studentfiles;
+package utilits;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import exams.ExamTestAnswers;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
+import studentfiles.Rezults;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,10 +16,10 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class UtilFiles {
-    private static final Logger LOG = (Logger) LogManager.getLogger(UtilFiles.class);
+     static final Logger LOG = (Logger) LogManager.getLogger(UtilFiles.class);
 
     //Nuskaityti visus atsakymu failus
-    static HashMap<String, ExamTestAnswers> getAllAnswers(Path kelias) {
+    public static HashMap<String, ExamTestAnswers> getAllAnswers(Path kelias) {
         HashMap<String, ExamTestAnswers> mas = new HashMap<>();
         List<String> collect = getFileList(kelias);
         for (String s : collect) {
@@ -34,7 +36,7 @@ public class UtilFiles {
     }
 
     //gauti sarasa failu, esanciu direktorijoje
-    static List<String> getFileList(Path kelias) {
+    public static List<String> getFileList(Path kelias) {
         if (Files.isDirectory(kelias)) {
             try {
 
@@ -52,7 +54,7 @@ public class UtilFiles {
     }
 
     //isvesti rezultatus i failus
-    static void printToFile(List<Rezults> rezultatai, Path kelias) {
+    public static void printToFile(List<Rezults> rezultatai, Path kelias) {
         ObjectMapper om = new ObjectMapper();
         if (Files.notExists(kelias)) {
             try {
@@ -66,9 +68,9 @@ public class UtilFiles {
             File fileatsalymas = new File(String.valueOf(Paths.get(String.valueOf(kelias)).resolve("Exam" + rez.getExamID() + ".json")));
             try {
                 om.writeValue(fileatsalymas, rez);
-                LOG.info("Įrašyti egzamino {} {} rezultatai", rez.getExamID(), rez.getPavadinimas());
+                LOG.info("Irasyti egzamino {} {} rezultatai", rez.getExamID(), rez.getPavadinimas());
             } catch (IOException e) {
-                LOG.warn("Klaida 03: nepavyko įrašyti egzamino rezultatų failo  {}", "Exam" + rez.getExamID() + rez.getPavadinimas());
+                LOG.warn("Klaida 03: nepavyko irasyti egzamino rezultatu failo  {}", "Exam" + rez.getExamID() + rez.getPavadinimas());
 
             }
         }

@@ -1,5 +1,6 @@
 package studentfiles;
 
+import exams.ExamTestAnswers;
 import org.junit.jupiter.api.Test;
 
 import java.nio.file.Path;
@@ -15,7 +16,7 @@ public class ExamTestAnswersTest {
     void getFromFileTestWithDate() {
         ExamTestAnswers atsakymai = new ExamTestAnswers();
 
-        Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\Answers\\egzas1.json");
+        Path iskur = Paths.get("src\\main\\resources\\egzas1.json");
         atsakymai.getFromFile(iskur);
         String a[] = {"a", "a", "d", "c"};
         assertEquals("124", atsakymai.getExamID());
@@ -28,7 +29,7 @@ public class ExamTestAnswersTest {
     @Test
     void getFromFileTestwWithWrongData() {
         ExamTestAnswers atsakymai = new ExamTestAnswers();
-        Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\Answers\\egzas2.json");
+        Path iskur = Paths.get("src\\main\\resources\\egzas2.json");
         atsakymai.getFromFile(iskur);
         String a[] = {"a", "a", "d", "c"};
 

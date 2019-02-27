@@ -1,14 +1,16 @@
-package studentfiles;
+package utilits;
 
+import exams.ExamTestAnswers;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
+import students.StudensExamAnswers;
 
 public class CountingExamRezult {
 
     static final Logger LOG = (Logger) LogManager.getLogger(CountingExamRezult.class);
 
     //Paskaiciuoti testo rezultata
-    static int getRezult(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
+    public static int getRezult(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
         int result = 0;
         int kiekKlausimu = studentans.getAts().length;
         if (kiekKlausimu != trueAnswers.getAts().length) {
@@ -34,7 +36,7 @@ public class CountingExamRezult {
 
 
     //Paskaiciuoti testo su irasomais atsakymais rezultata
-    static int getRezultWithAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
+    public static int getRezultWithAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
         int result = 0;
 
         double visorez = 0.0d;
@@ -70,7 +72,7 @@ public class CountingExamRezult {
     }
 
     //Paskaiciuoti testo su kelais teisingais atsakymais rezultata
-    static int getRezultWithFewAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
+    public static int getRezultWithFewAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
         int result = 0;
 
         double visorez = 0.0d;

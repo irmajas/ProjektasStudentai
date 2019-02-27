@@ -1,4 +1,6 @@
-package studentfiles;
+package students;
+
+import students.Student;
 
 public class StudentResult extends Student {
     private String egzam_data;

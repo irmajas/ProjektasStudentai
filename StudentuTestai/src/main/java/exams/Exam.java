@@ -1,4 +1,6 @@
-package studentfiles;
+package exams;
+
+import studentfiles.TestType;
 
 public abstract class Exam {
     private String examID;

@@ -1,6 +1,11 @@
-package studentfiles;
+package utilitsTest;
 
+import exams.ExamTestAnswers;
 import org.junit.jupiter.api.Test;
+import studentfiles.TestType;
+import students.StudensExamAnswers;
+import students.Student;
+import utilits.CountingExamRezult;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package studentfiles;
+package students;
 
 import java.util.Objects;
 
