@@ -70,7 +70,7 @@ public class CountingExamRezult {
     }
 
     //Paskaiciuoti testo su kelais teisingais atsakymais rezultata
-    static int getRezultWithfewAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
+    static int getRezultWithFewAnswers(StudensExamAnswers studentans, ExamTestAnswers trueAnswers) {
         int result = 0;
 
         double visorez = 0.0d;

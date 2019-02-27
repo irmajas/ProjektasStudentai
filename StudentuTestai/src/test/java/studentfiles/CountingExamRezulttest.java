@@ -69,7 +69,7 @@ public class CountingExamRezulttest {
 
         studensExamAnswers.setAts(ats);
         int rez;
-        rez = CountingExamRezult.getRezultWithfewAnswers(studensExamAnswers, exam);
+        rez = CountingExamRezult.getRezultWithFewAnswers(studensExamAnswers, exam);
         assertEquals(70, rez);
 
     }
@@ -93,7 +93,7 @@ public class CountingExamRezulttest {
 
         studensExamAnswers.setAts(ats);
         int rez;
-        rez = CountingExamRezult.getRezultWithfewAnswers(studensExamAnswers, exam);
+        rez = CountingExamRezult.getRezultWithFewAnswers(studensExamAnswers, exam);
         assertEquals(-1, rez);
 
     }

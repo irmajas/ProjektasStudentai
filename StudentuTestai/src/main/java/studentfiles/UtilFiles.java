@@ -38,11 +38,11 @@ public class UtilFiles {
         if (Files.isDirectory(kelias)) {
             try {
 
-                List<String> collect = Files.walk(Paths.get(String.valueOf(kelias)))
+                return Files.walk(Paths.get(String.valueOf(kelias)))
                         .filter(Files::isRegularFile)
                         .map(path -> path.getFileName().toString())
                         .collect(Collectors.toList());
-                return collect;
+
             } catch (IOException e) {
                 LOG.error(" Klaida 01 nuskaitant failus aplanke {}", kelias.getFileName());
                 System.exit(-1);

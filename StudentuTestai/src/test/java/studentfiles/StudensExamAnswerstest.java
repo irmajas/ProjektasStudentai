@@ -16,8 +16,8 @@ public class StudensExamAnswerstest {
         Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\StudentsAnswers\\result2.json");
         studAts.getFromFile(iskur);
         String a[] = {"c", "c", "c", "c"};
-        assertEquals("00:51", studAts.getEgzam_trukme());
-        assertEquals("2019-02-07", studAts.getEgzam_data());
+        assertEquals("00:51", studAts.getEgzamTrukme());
+        assertEquals("2019-02-07", studAts.getEgzamData());
         assertEquals("2365", studAts.getStudent().getId());
         assertEquals("Rima", studAts.getStudent().getVardas());
         assertEquals("Rimute", studAts.getStudent().getPavarde());
@@ -31,8 +31,8 @@ public class StudensExamAnswerstest {
         Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\StudentsAnswers\\result1.json");
         studAts.getFromFile(iskur);
         String a[] = {"c", "a", "d", "c"};
-        assertEquals("01:18", studAts.getEgzam_trukme());
-        assertEquals("2019-05-06", studAts.getEgzam_data());
+        assertEquals("01:18", studAts.getEgzamTrukme());
+        assertEquals("2019-05-06", studAts.getEgzamData());
         assertEquals(null, studAts.getStudent().getId());
         assertEquals(null, studAts.getStudent().getVardas());
 //        assertEquals("null", studAts.getStudent().getPavarde());

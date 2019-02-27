@@ -14,6 +14,7 @@ public class ExamTestAnswersTest {
     @Test
     void getFromFileTestWithDate() {
         ExamTestAnswers atsakymai = new ExamTestAnswers();
+
         Path iskur = Paths.get("C:\\Users\\IrmaJ\\ProjektasStudentai\\StudentuTestai\\Duomenys\\Answers\\egzas1.json");
         atsakymai.getFromFile(iskur);
         String a[] = {"a", "a", "d", "c"};

@@ -12,38 +12,37 @@ import org.json.simple.parser.ParseException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Path;
-import java.sql.Time;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Arrays;
 
-//@SuppressWarnings("ALL")
+
 public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles {
     private static final org.apache.logging.log4j.core.Logger LOG = (Logger) LogManager.getLogger(StudensExamAnswers.class);
 
     private Student student = new Student();
-    private String egzam_data;
-    private String egzam_trukme;
+    private String egzamData;
+    private String egzamTrukme;
 
     public Student getStudent() {
         return student;
     }
 
-    public String getEgzam_data() {
-        return egzam_data;
+    public String getEgzamData() {
+        return egzamData;
     }
 
-    public String getEgzam_trukme() {
-        return egzam_trukme;
+    public String getEgzamTrukme() {
+        return egzamTrukme;
     }
 
-    public void setEgzam_data(String egzam_data) {
-        this.egzam_data = egzam_data;
+    public void setEgzamData(String egzamData) {
+        this.egzamData = egzamData;
     }
 
-    public void setEgzam_trukme(String egzam_trukme) {
-        this.egzam_trukme = egzam_trukme;
+    public void setEgzamTrukme(String egzamTrukme) {
+        this.egzamTrukme = egzamTrukme;
     }
 
     public void setStudent(Student student) {
@@ -51,21 +50,9 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
     }
 
     @Override
-    public String toString() {
-        return "StudensExamAnswers{" +
-                "student=" + student +
-                ", ats=" + Arrays.toString(getAts()) +
-                ", examID='" + getExamID() + '\'' +
-                ", pavadinimas='" + getPavadinimas() + '\'' +
-                ", tipas='" + getTipas() + '\'' +
-                '}';
-    }
-
-    @Override
 //getting test aswers one Student
     public void getFromFile(Path kelias) {
         JSONParser parser = new JSONParser();
-        ObjectMapper om = new ObjectMapper();
 
         try {
             Object obj = parser.parse(new FileReader(String.valueOf(kelias)));
@@ -108,7 +95,7 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
             String[] atsakym = new String[obats.size()];
             for (int i = 0; i < obats.size(); i++) {
                 JSONObject ats = (JSONObject) obats.get(i);
-                int kl = (int) Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
+                int kl = Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
                 if (kl != i + 1) {
                     LOG.warn("Klaida 02 faile {}. Neteisingas atsakymo numeris", kelias.getFileName());
                     return;
@@ -130,8 +117,8 @@ public class StudensExamAnswers extends ExamTestAnswers implements GetFromFiles 
                 LOG.warn("Klaida 06 faile {}. Nepavyko įkelti studento testo atsakymų", kelias.getFileName());
             }
             this.setAts(atsakym);
-            this.setEgzam_data(examDate.toString());
-            this.setEgzam_trukme(trukme.toString());
+            this.setEgzamData(examDate.toString());
+            this.setEgzamTrukme(trukme.toString());
 
         } catch (JsonParseException e) {
             LOG.error(" Klaida 03 faile {}. Nnepavyko ikelti agzamino atsakymu", kelias.getFileName());

@@ -44,7 +44,7 @@ public class Util {
                         rez = CountingExamRezult.getRezult(studAts, atsakymai.get(studAts.getExamID()));
                     }
                     if (studAts.getTipas().equals(TestType.TEST_WITH_FEW_ANSWERS)) {
-                        rez = CountingExamRezult.getRezultWithfewAnswers(studAts, atsakymai.get(studAts.getExamID()));
+                        rez = CountingExamRezult.getRezultWithFewAnswers(studAts, atsakymai.get(studAts.getExamID()));
                     }
                     if (studAts.getTipas().equals(TestType.TEST_WRITE_ANSWERS)) {
                         rez = CountingExamRezult.getRezultWithAnswers(studAts, atsakymai.get(studAts.getExamID()));
@@ -54,8 +54,8 @@ public class Util {
                     if (rez != -1) {
                         StudentResult studRez = new StudentResult(studAts.getStudent().getId(), studAts.getStudent().getVardas()
                                 , studAts.getStudent().getPavarde(), rez);
-                        studRez.setEgzam_data(studAts.getEgzam_data());
-                        studRez.setEgzam_trukme(studAts.getEgzam_trukme());
+                        studRez.setEgzam_data(studAts.getEgzamData());
+                        studRez.setEgzam_trukme(studAts.getEgzamTrukme());
                         for (Rezults rezz : rezultatai) {
                             if (rezz.getExamID().equals(studAts.getExamID()))
                                 rezz.addEgzaminoRezultatai(studRez);
@@ -115,6 +115,7 @@ public class Util {
                 .filter(studentResult -> !studentNew.containsAll(studentOld))
                 .collect(Collectors.toList());
         reznew.setEgzaminoRezultatai(Stream.concat(studentNew.stream(), original.stream())
+                .distinct()
                 .collect(Collectors.toList()));
         return reznew;
     }

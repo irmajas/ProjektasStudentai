@@ -49,7 +49,7 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
     // to read true answers file for one rxam
     public void getFromFile(Path kelias) {
         JSONParser parser = new JSONParser();
-        ObjectMapper om = new ObjectMapper();
+
         try {
             Object obj = parser.parse(new FileReader(String.valueOf(kelias)));
             JSONObject jsonOb = (JSONObject) obj;
@@ -58,7 +58,7 @@ public class ExamTestAnswers extends Exam implements GetFromFiles {
             this.ats = new String[obats.size()];
             for (int i = 0; i < obats.size(); i++) {
                 JSONObject ats = (JSONObject) obats.get(i);
-                int kl = (int) Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
+                int kl = Integer.parseInt(String.valueOf((long) ats.get("klausimas")));
                 try {
                     this.ats[kl - 1] = (String) ats.get("atsakymas");
                 } catch (ArrayIndexOutOfBoundsException r) {
